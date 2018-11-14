@@ -2,7 +2,9 @@
 
 URL=$1
 REPO=$2
+
 DIRECTORY="gitRepositories"
+LOGDIRECTORY="logs"
 if [ ! -d $DIRECTORY ]; then
   mkdir $DIRECTORY
 fi

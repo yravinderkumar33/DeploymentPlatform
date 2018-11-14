@@ -14,21 +14,22 @@ const appDb = require('./db/db.apps');
 const path = require('path');
 var expressWinston = require('express-winston');
 var winston = require('winston');
+var fs = require('fs');
 
 app.use(express.static(path.join(__dirname, './client/build')));
 
 app.use(expressWinston.logger({
     transports: [
-      new winston.transports.Console({
-        json: true,
-        colorize: true
-      }),
-      new winston.transports.File({
-        filename: 'access.log',
-        level: 'info'
-    })
+        new winston.transports.Console({
+            json: true,
+            colorize: true
+        }),
+        new winston.transports.File({
+            filename: 'access.log',
+            level: 'info'
+        })
     ]
-  }));
+}));
 
 app.use(bodyParser.json());
 app.use(passport.initialize());
@@ -62,7 +63,22 @@ app.post("/deploy", (req, res) => {
         return merge(stdout, stderr).pipe(map((data) => data.toString('utf-8')));
     }));
 
-    emission.subscribe(
+    const logs = emission.pipe(tap(x => {
+        fs.stat("logs", (err, stats) => {
+            if (err) {
+                fs.mkdir("logs", (err) => {
+                    console.error("error occured while creating directory", err);
+                })
+            }
+            let data = `[  ${new Date()} ]:- ${x}`
+            fs.writeFile(`logs/${repo}.log`, data, { flag: 'a' }, (err) => {
+                if (err) throw err;
+                console.log('The file has been saved!');
+            })
+        })
+    }))
+
+    logs.subscribe(
         x => {
             console.log('data', x);
             if (String(x).includes("Successfully built")) {
