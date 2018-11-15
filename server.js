@@ -18,18 +18,18 @@ var fs = require('fs');
 
 app.use(express.static(path.join(__dirname, './client/build')));
 app.use(express.static(path.join(__dirname, './logs')));
-// app.use(expressWinston.logger({
-//     transports: [
-//         new winston.transports.Console({
-//             json: true,
-//             colorize: true
-//         }),
-//         new winston.transports.File({
-//             filename: 'access.log',
-//             level: 'info'
-//         })
-//     ]
-// }));
+app.use(expressWinston.logger({
+    transports: [
+        new winston.transports.Console({
+            json: true,
+            colorize: true
+        }),
+        new winston.transports.File({
+            filename: 'access.log',
+            level: 'info'
+        })
+    ]
+}));
 
 app.use(bodyParser.json());
 app.use(passport.initialize());
@@ -78,13 +78,19 @@ app.post("/deploy", (req, res) => {
         })
     }))
 
-    logs.subscribe(
+    const databaseEntry = logs.pipe(tap((x) => {
+        appID = x.split(" ")[x.split(" ").length - 1]
+        if (String(x).includes("Successfully built")) {
+            storeData(repoUrl, repo, appID, "true");
+        } else {
+            storeData(repoUrl, repo, -1, "false");
+        }
+    }))
+
+    databaseEntry.subscribe(
         x => {
             console.log('data', x);
-            if (String(x).includes("Successfully built")) {
-                appID = x.split(" ")[x.split(" ").length - 1]
-                storeData(repoUrl, repo, appID, "true");
-            }
+
             io.emit('chat', x);
         },
         e => {
@@ -93,7 +99,6 @@ app.post("/deploy", (req, res) => {
         () => console.log("completed")
     )
 })
-
 
 app.get("/apps", (req, res) => {
     appDb.getUserApps()
@@ -106,12 +111,8 @@ app.get("/apps", (req, res) => {
 
 
 app.get("/downloadLog/:name", (req, res) => {
-    const fileName = req.params.name + ".log";
-    console.log(fileName);
-    res.download(`${__dirname}/logs/${fileName}`, fileName, (err) => {
-        console.log(err)
-    });
-
+  console.log(req.params.name);
+  res.send("file is being downloaded")
 })
 
 app.use(expressWinston.errorLogger({
@@ -126,7 +127,6 @@ app.use(expressWinston.errorLogger({
         })
     ]
 }));
-
 
 function storeData(url, appName, appId, status) {
     appDb.addApp({

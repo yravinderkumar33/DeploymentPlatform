@@ -1,6 +1,6 @@
-[  Wed Nov 14 2018 17:43:45 GMT+0530 (IST) ]:- Cloning into 'portfolio'...
-[  Wed Nov 14 2018 17:43:46 GMT+0530 (IST) ]:- remote: Enumerating objects: 66, done.        
-[  Wed Nov 14 2018 17:44:07 GMT+0530 (IST) ]:- remote: Total 66 (delta 0), reused 0 (delta 0), pack-reused 66        
-[  Wed Nov 14 2018 17:44:07 GMT+0530 (IST) ]:- git clone successful
+[  Thu Nov 15 2018 12:59:15 GMT+0530 (IST) ]:- Cloning into 'portfolio'...
+[  Thu Nov 15 2018 12:59:17 GMT+0530 (IST) ]:- remote: Enumerating objects: 66, done.        
+[  Thu Nov 15 2018 12:59:24 GMT+0530 (IST) ]:- remote: Total 66 (delta 0), reused 0 (delta 0), pack-reused 66        
+[  Thu Nov 15 2018 12:59:25 GMT+0530 (IST) ]:- git clone successful
 docker-compose.yml file not found
 Dockerfile not found.
