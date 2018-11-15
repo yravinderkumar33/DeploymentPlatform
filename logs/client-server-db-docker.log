@@ -1,226 +1,477 @@
-[  Wed Nov 14 2018 17:17:43 GMT+0530 (IST) ]:- Cloning into 'client-server-db-docker'...
-[  Wed Nov 14 2018 17:17:45 GMT+0530 (IST) ]:- remote: Enumerating objects: 97, done.        
-remote: Counting objects:   1% (1/97)           remote: Counting objects:   2% (2/97)           remote: Counting objects:   3% (3/97)           remote: Counting objects:   4% (4/97)           remote: Counting objects:   5% (5/97)           remote: Counting objects:   6% (6/97)           remote: Counting objects:   7% (7/97)           remote: Counting objects:   8% (8/97)           remote: Counting objects:   9% (9/97)           remote: Counting objects:  10% (10/97)           remote: Counting objects:  11% (11/97)           remote: Counting objects:  12% (12/97)           remote: Counting objects:  13% (13/97)           remote: Counting objects:  14% (14/97)           remote: Counting objects:  15% (15/97)           remote: Counting objects:  16% (16/97)           remote: Counting objects:  17% (17/97)           remote: Counting objects:  18% (18/97)           remote: Counting objects:  19% (19/97)           remote: Counting objects:  20% (20/97)           remote: Counting objects:  21% (21/97)           [  Wed Nov 14 2018 17:17:45 GMT+0530 (IST) ]:- remote: Counting objects:  22% (22/97)           remote: Counting objects:  23% (23/97)           remote: Counting objects:  24% (24/97)           remote: Counting objects:  25% (25/97)           remote: Counting objects:  26% (26/97)           remote: Counting objects:  27% (27/97)           remote: Counting objects:  28% (28/97)           remote: Counting objects:  29% (29/97)           remote: Counting objects:  30% (30/97)           remote: Counting objects:  31% (31/97)           remote: Counting objects:  32% (32/97)           remote: Counting objects:  34% (33/97)           remote: Counting objects:  35% (34/97)           remote: Counting objects:  36% (35/97)           remote: Counting objects:  37% (36/97)           remote: Counting objects:  38% (37/97)           remote: Counting objects:  39% (38/97)           remote: Counting objects:  40% (39/97)           remote: Counting objects:  41% (40/97)           remote: Counting objects:  42% (41/97)           remote: Counting objects:  43% (42/97)           remote: Counting objects:  44% (43/97)           remote: Counting objects:  45% (44/97)           remote: Counting objects:  46% (45/97)           remote: Counting objects:  47% (46/97)           remote: Counting objects:  48% (47/97)           remote: Counting objects:  49% (48/97)           remote: Counting objects:  50% (49/97)           remote: Counting objects:  51% (50/97)           remote: Counting objects:  52% (51/97)           remote: Counting objects:  53% (52/97)           remote: Counting objects:  54% (53/97)   remote: Counting objects:  55% (54/97)           remote: Counting objects:  56% (55/97)           remote: Counting objects:  57% (56/97)           remote: Counting objects:  58% (57/97)           remote: Counting objects:  59% (58/97)           remote: Counting objects:  60% (59/97)           remote: Counting objects:  61% (60/97)           remote: Counting objects:  62% (61/97)           remote: Counting objects:  63% (62/97)           remote: Counting objects:  64% (63/97)           remote: Counting objects:  65% (64/97)           remote: Counting objects:  67% (65/97)           remote: Counting objects:  68% (66/97)           remote: Counting objects:  69% (67/97)           remote: Counting objects:  70% (68/97)           remote: Counting objects:  71% (69/97)           remote: Counting objects:  72% (70/97)           remote: Counting objects:  73% (71/97)           remote: Counting objects:  74% (72/97)           remote: Counting objects:  75% (73/97)           remote: Counting objects:  76% (74/97)           remote: Counting objects:  77% (75/97)           remote: Counting objects:  78% (76/97)           remote: Counting objects:  79% (77/97)           remote: Counting objects:  80% (78/97)           remote: Counting objects:  81% (79/97)           remote: Counting objects:  82% (80/97)           remote: Counting objects:  83% (81/97)           remote: Counting objects:  84% (82/97)           remote: Counting objects:  85% (83/97)           remote: Counting objects:  86% (84/97)           remote: Counting objects:  87% (85/97)           remote: Counting objects:  88% (86/97)           remote: Counting objects:  89% (87/97)           remote: Counting objects:  90% (88/97)           remote: Counting objects:  91% (89/97)           remote: Counting objects:  92% (90/97)           remote: Counting objects:  93% (91/97)           remote: Counting objects:  94% (92/97)           remote: Counting objects:  95% (93/97)           remote: Counting objects:  96% (94/97)           remote: Counting objects:  97% (95/97)           remote: Counting objects:  98% (96/97)           remote: Counting objects: 100% (97/97)           remote: Counting objects: 100% (97/97), done.        
-remote: Compressing objects:   1% (1/71)           remote: Compressing objects:   2% (2/71)           remote: Compressing objects:   4% (3/71)           remote: Compressing objects:   5% (4/71)           remote: Compressing objects:   7% (5/71)           remote: Compressing objects:   8% (6/71)           remote: Compressing objects:   9% (7/71)           [  Wed Nov 14 2018 17:17:45 GMT+0530 (IST) ]:- remote: Compressing objects:  11% (8/71)           remote: Compressing objects:  12% (9/71)           remote: Compressing objects:  14% (10/71)           remote: Compressing objects:  15% (11/71)           remote: Compressing objects:  16% (12/71)           remote: Compressing objects:  18% (13/71)           remote: Compressing objects:  19% (14/71)           [  Wed Nov 14 2018 17:17:45 GMT+0530 (IST) ]:- remote: Compressing objects:  21% (15/71)           remote: Compressing objects:  22% (16/71)           remote: Compressing objects:  23% (17/71)           remote: Compressing objects:  25% (18/71)           remote: Compressing objects:  26% (19/71)           remote: Compressing objects:  28% (20/71)           remote: Compressing objects:  29% (21/71)           remote: Compressing objects:  30% (22/71)           remote: Compressing objects:  32% (23/71)           remote: Compressing objects:  33% (24/71)           remote: Compressing objects:  35% (25/71)           remote: Compressing objects:  36% (26/71)           remote: Compressing objects:  38% (27/71)           remote: Compressing objects:  39% (28/71)           remote: Compressing objects:  40% (29/71)           remote: Compressing objects:  42% (30/71)           remote: Compressing objects:  43% (31/71)           remote: Compressing objects:  45% (32/71)           remote: Compressing objects:  46% (33/71)           remote: Compressing objects:  47% (34/71)           remote: Compressing objects:  49% (35/71)           remote: Compressing objects:  50% (36/71)           remote: Compressing objects:  52% (37/71)           remote: Compressing objects:  53% (38/71)           remote: Compressing objects:  54% (39/71)           remote: Compressing objects:  56% (40/71)           remote: Compressing objects:  57% (41/71)           remote: Compressing objects:  59% (42/71)           remote: Compressing objects:  60% (43/71)           remote: Compressing objects:  61% (44/71)           remote: Compressing objects:  63% (45/71)           remote: Compressing objects:  64% (46/71)           remote: Compressing objects:  66% (47/71)           remote: Compressing objects:  67% (48/71)           remote: Compressing objects:  69% (49/71)           remote: Compressing objects:  70% (50/71)           remote: Compressing objects:  71% (51/71)           remote: Compressing objects:  73% (52/71)           remote: Compressing objects:  74% (53/71)           remote: Compressing objects:  76% (54/71)           remote: Compressing objects:  77% (55/71)           remote: Compressing objects:  78% (56/71)           remote: Compressing objects:  80% (57/71)           remote: Compressing objects:  81% (58/71)           remote: Compressing objects:  83% (59/71)           remote: Compressing objects:  84% (60/71)           remote: Compressing objects:  85% (61/71)           remote: Compressing objects:  87% (62/71)           remote: Compressing objects:  88% (63/71)           remote: Compressing objects:  90% (64/71)           remote: Compressing objects:  91% (65/71)           remote: Compressing objects:  92% (66/71)           remote: Compressing objects:  94% (67/71)           remote: Compressing objects:  95% (68/71)           remote: Compressing objects:  97% (69/71)           remote: Compressing objects:  98% (70/71)           remote: Compressing objects: 100% (71/71)           remote: Compressing objects: 100% (71/71), done.        
-[  Wed Nov 14 2018 17:17:50 GMT+0530 (IST) ]:- remote: Total 97 (delta 23), reused 90 (delta 16), pack-reused 0        
-[  Wed Nov 14 2018 17:17:50 GMT+0530 (IST) ]:- git clone successful
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Building app
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Step 1/7 : FROM node:8[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- 
+[  Wed Nov 14 2018 17:58:07 GMT+0530 (IST) ]:- Cloning into 'client-server-db-docker'...
+[  Wed Nov 14 2018 17:58:09 GMT+0530 (IST) ]:- remote: Enumerating objects: 97, done.        
+remote: Counting objects:   1% (1/97)           remote: Counting objects:   2% (2/97)           remote: Counting objects:   3% (3/97)           remote: Counting objects:   4% (4/97)           remote: Counting objects:   5% (5/97)           remote: Counting objects:   6% (6/97)           remote: Counting objects:   7% (7/97)           remote: Counting objects:   8% (8/97)           [  Wed Nov 14 2018 17:58:09 GMT+0530 (IST) ]:- remote: Counting objects:   9% (9/97)           remote: Counting objects:  10% (10/97)           remote: Counting objects:  11% (11/97)           remote: Counting objects:  12% (12/97)           remote: Counting objects:  13% (13/97)           remote: Counting objects:  14% (14/97)           remote: Counting objects:  15% (15/97)           remote: Counting objects:  16% (16/97)           remote: Counting objects:  17% (17/97)           remote: Counting objects:  18% (18/97)           remote: Counting objects:  19% (19/97)           remote: Counting objects:  20% (20/97)           remote: Counting objects:  21% (21/97)           remote: Counting objects:  22% (22/97)           remote: Counting objects:  23% (23/97)           remote: Counting objects:  24% (24/97)           remote: Counting objects:  25% (25/97)           remote: Counting objects:  26% (26/97)           remote: Counting objects:  27% (27/97)           remote: Counting objects:  28% (28/97)           remote: Counting objects:  29% (29/97)           remote: Counting objects:  30% (30/97)           remote: Counting objects:  31% (31/97)           remote: Counting objects:  32% (32/97)           remote: Counting objects:  34% (33/97)           remote: Counting objects:  35% (34/97)           remote: Counting objects:  36% (35/97)           remote: Counting objects:  37% (36/97)           remote: Counting objects:  38% (37/97)           remote: Counting objects:  39% (38/97)           remote: Counting objects:  40% (39/97)           remote: Counting objects:  41% (40/97)           remote: Counting objects:  42% (41/97)           remote: Counting objects:  43% (42/97)           remote: Counting objects:  44% (43/97)           remote: Counting objects:  45% (44/97)           remote: Counting objects:  46% (45/97)           remote: Counting objects:  47% (46/97)           remote: Counting objects:  48% (47/97)           remote: Counting objects:  49% (48/97)           remote: Counting objects:  50% (49/97)           remote: Counting objects:  51% (50/97)           remote: Counting objects:  52% (51/97)           remote: Counting objects:  53% (52/97)           remote: Counting objects:  54% (53/97)   remote: Counting objects:  55% (54/97)           remote: Counting objects:  56% (55/97)           remote: Counting objects:  57% (56/97)           remote: Counting objects:  58% (57/97)           remote: Counting objects:  59% (58/97)           remote: Counting objects:  60% (59/97)           remote: Counting objects:  61% (60/97)           remote: Counting objects:  62% (61/97)           remote: Counting objects:  63% (62/97)           remote: Counting objects:  64% (63/97)           remote: Counting objects:  65% (64/97)           remote: Counting objects:  67% (65/97)           remote: Counting objects:  68% (66/97)           remote: Counting objects:  69% (67/97)           remote: Counting objects:  70% (68/97)           remote: Counting objects:  71% (69/97)           remote: Counting objects:  72% (70/97)           remote: Counting objects:  73% (71/97)           remote: Counting objects:  74% (72/97)           remote: Counting objects:  75% (73/97)           remote: Counting objects:  76% (74/97)           remote: Counting objects:  77% (75/97)           remote: Counting objects:  78% (76/97)           remote: Counting objects:  79% (77/97)           remote: Counting objects:  80% (78/97)           remote: Counting objects:  81% (79/97)           remote: Counting objects:  82% (80/97)           remote: Counting objects:  83% (81/97)           remote: Counting objects:  84% (82/97)           remote: Counting objects:  85% (83/97)           remote: Counting objects:  86% (84/97)           remote: Counting objects:  87% (85/97)           remote: Counting objects:  88% (86/97)           remote: Counting objects:  89% (87/97)           remote: Counting objects:  90% (88/97)           remote: Counting objects:  91% (89/97)           remote: Counting objects:  92% (90/97)           remote: Counting objects:  93% (91/97)           remote: Counting objects:  94% (92/97)           remote: Counting objects:  95% (93/97)           remote: Counting objects:  96% (94/97)           remote: Counting objects:  97% (95/97)           remote: Counting objects:  98% (96/97)           remote: Counting objects: 100% (97/97)           remote: Counting objects: 100% (97/97), done.        
+remote: Compressing objects:   1% (1/71)           remote: Compressing objects:   2% (2/71)           remote: Compressing objects:   4% (3/71)           remote: Compressing objects:   5% (4/71)           remote: Compressing objects:   7% (5/71)           remote: Compressing objects:   8% (6/71)           remote: Compressing objects:   9% (7/71)           remote: Compressing objects:  11% (8/71)           remote: Compressing objects:  12% (9/71)           remote: Compressing objects:  14% (10/71)           remote: Compressing objects:  15% (11/71)           remote: Compressing objects:  16% (12/71)           remote: Compressing objects:  18% (13/71)           remote: Compressing objects:  19% (14/71)           remote: Compressing objects:  21% (15/71)           remote: Compressing objects:  22% (16/71)           remote: Compressing objects:  23% (17/71)           remote: Compressing objects:  25% (18/71)           [  Wed Nov 14 2018 17:58:09 GMT+0530 (IST) ]:- remote: Compressing objects:  26% (19/71)           remote: Compressing objects:  28% (20/71)           remote: Compressing objects:  29% (21/71)           remote: Compressing objects:  30% (22/71)           remote: Compressing objects:  32% (23/71)           remote: Compressing objects:  33% (24/71)           remote: Compressing objects:  35% (25/71)           remote: Compressing objects:  36% (26/71)           remote: Compressing objects:  38% (27/71)           remote: Compressing objects:  39% (28/71)           remote: Compressing objects:  40% (29/71)           [  Wed Nov 14 2018 17:58:09 GMT+0530 (IST) ]:- remote: Compressing objects:  42% (30/71)           remote: Compressing objects:  43% (31/71)           remote: Compressing objects:  45% (32/71)           remote: Compressing objects:  46% (33/71)           remote: Compressing objects:  47% (34/71)           remote: Compressing objects:  49% (35/71)           remote: Compressing objects:  50% (36/71)           remote: Compressing objects:  52% (37/71)           remote: Compressing objects:  53% (38/71)           remote: Compressing objects:  54% (39/71)           remote: Compressing objects:  56% (40/71)           remote: Compressing objects:  57% (41/71)           remote: Compressing objects:  59% (42/71)           remote: Compressing objects:  60% (43/71)           remote: Compressing objects:  61% (44/71)           remote: Compressing objects:  63% (45/71)           remote: Compressing objects:  64% (46/71)           remote: Compressing objects:  66% (47/71)           remote: Compressing objects:  67% (48/71)           remote: Compressing objects:  69% (49/71)           remote: Compressing objects:  70% (50/71)           remote: Compressing objects:  71% (51/71)           remote: Compressing objects:  73% (52/71)           remote: Compressing objects:  74% (53/71)           remote: Compressing objects:  76% (54/71)           remote: Compressing objects:  77% (55/71)           remote: Compressing objects:  78% (56/71)           remote: Compressing objects:  80% (57/71)           remote: Compressing objects:  81% (58/71)           remote: Compressing objects:  83% (59/71)           remote: Compressing objects:  84% (60/71)           remote: Compressing objects:  85% (61/71)           remote: Compressing objects:  87% (62/71)           remote: Compressing objects:  88% (63/71)           remote: Compressing objects:  90% (64/71)           remote: Compressing objects:  91% (65/71)           remote: Compressing objects:  92% (66/71)           remote: Compressing objects:  94% (67/71)           remote: Compressing objects:  95% (68/71)           remote: Compressing objects:  97% (69/71)           remote: Compressing objects:  98% (70/71)           remote: Compressing objects: 100% (71/71)           remote: Compressing objects: 100% (71/71), done.        
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- remote: Total 97 (delta 23), reused 90 (delta 16), pack-reused 0        
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- git clone successful
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- Building app
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- Step 1/7 : FROM node:8[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- 
  ---> 82c0936c46c1
-Step 2/7 : WORKDIR /usr/src/app
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> Using cache
- ---> 9a79ae9012ae
-Step 3/7 : COPY ./package*.json ./
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> Using cache
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> 6169c4c7621b
-Step 4/7 : RUN npm install
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- Step 2/7 : WORKDIR /usr/src/app
  ---> Using cache
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> 9a79ae9012ae
+Step 3/7 : COPY ./package*.json ./
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> Using cache
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> 6169c4c7621b
+Step 4/7 : RUN npm install
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> Using cache
  ---> 8ec0e30d5c86
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Step 5/7 : COPY ./ ./
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> Using cache
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> 39b4904ff189
-Step 6/7 : EXPOSE 5000
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> Using cache
- ---> 46f41c3d4f8b
-Step 7/7 : CMD ["npm" , "start"]
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:-  ---> Using cache
+Step 5/7 : COPY ./ ./[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- 
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> Using cache
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> 39b4904ff189
+Step 6/7 : EXPOSE 5000[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- 
+ ---> Using cache
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> 46f41c3d4f8b
+Step 7/7 : CMD ["npm" , "start"][  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- 
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:-  ---> Using cache
  ---> c116abc8f542
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Successfully built c116abc8f542
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Successfully tagged clientserverdbdocker_app:latest
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- database1234 is up-to-date
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- backend1232 is up-to-date
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- Attaching to database1234, backend1232
-[36mdatabase1234 |[0m 2018-11-12T11:51:38.725+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] db version v4.0.3
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] allocator: tcmalloc
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] modules: none
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] build environment:
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     distarch: x86_64
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     target_arch: x86_64
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:39.308+0000 I STORAGE  [initandlisten] WiredTiger message [1542023499:308587][1:0x7f85a0089a00], txn-recover: Main recovery loop: starting at 10/60800
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:39.378+0000 I STORAGE  [initandlisten] WiredTiger message [1542023499:378885][1:0x7f85a0089a00], txn-recover: Recovering log 10 through 11
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:44.101+0000 I STORAGE  [initandlisten] WiredTiger message [1542023504:101394][1:0x7f85a0089a00], txn-recover: Recovering log 11 through 11
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:44.167+0000 I STORAGE  [initandlisten] WiredTiger message [1542023504:167447][1:0x7f85a0089a00], txn-recover: Set global recovery timestamp: 0
-[36mdatabase1234 |[0m 2018-11-12T11:51:44.341+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > node server.js
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 W CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m listening on port 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 W CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:12 GMT+0530 (IST) ]:- Successfully built c116abc8f542
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- Successfully tagged clientserverdbdocker_app:latest
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- database1234 is up-to-date
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- backend1232 is up-to-date
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- Attaching to database1234, backend1232
+[33mbackend1232 |[0m 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > node server.js
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 5002
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m listening on port 5002
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
 [33mbackend1232 |[0m > node server.js
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.554+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.556+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
+[33mbackend1232 |[0m 5002
 [33mbackend1232 |[0m listening on port 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > node server.js
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m listening on port 5002
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m now reached here IncomingMessage {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _readableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m    ReadableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      buffer: BufferList { head: null, tail: null, length: 0 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      length: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      pipes: null,
-[33mbackend1232 |[0m      pipesCount: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      flowing: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      ended: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      endEmitted: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      reading: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.647+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      sync: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:11.658+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      needReadable: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      emittedReadable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readableListening: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I CONTROL  [signalProcessingThread] now exiting
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.372+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      resumeScheduled: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] db version v4.0.3
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      defaultEncoding: 'utf8',
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      awaitDrain: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readingMore: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] allocator: tcmalloc
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      decoder: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] modules: none
-[33mbackend1232 |[0m      encoding: null },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] build environment:
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   readable: true,
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _events: {},
-[33mbackend1232 |[0m   _eventsCount: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _maxListeners: undefined,
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     distarch: x86_64
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     target_arch: x86_64
-[33mbackend1232 |[0m   socket: 
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[33mbackend1232 |[0m 
+[33mbackend1232 |[0m > test@1.0.0 start /usr/src/app
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m > node server.js
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m 5002
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m listening on port 5002
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m now reached here IncomingMessage {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _readableState: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m    ReadableState {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      objectMode: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      highWaterMark: 16384,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      buffer: BufferList { head: null, tail: null, length: 0 },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      length: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      pipes: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      pipesCount: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      flowing: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      ended: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      endEmitted: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      reading: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      sync: true,
+[33mbackend1232 |[0m      needReadable: false,
+[33mbackend1232 |[0m      emittedReadable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.725+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] db version v4.0.3
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] modules: none
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] build environment:
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readableListening: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      resumeScheduled: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      destroyed: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      defaultEncoding: 'utf8',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      awaitDrain: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readingMore: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      decoder: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:38.729+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      encoding: null },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:39.308+0000 I STORAGE  [initandlisten] WiredTiger message [1542023499:308587][1:0x7f85a0089a00], txn-recover: Main recovery loop: starting at 10/60800
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:39.378+0000 I STORAGE  [initandlisten] WiredTiger message [1542023499:378885][1:0x7f85a0089a00], txn-recover: Recovering log 10 through 11
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   readable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:44.101+0000 I STORAGE  [initandlisten] WiredTiger message [1542023504:101394][1:0x7f85a0089a00], txn-recover: Recovering log 11 through 11
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:44.167+0000 I STORAGE  [initandlisten] WiredTiger message [1542023504:167447][1:0x7f85a0089a00], txn-recover: Set global recovery timestamp: 0
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _events: {},
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:44.341+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _eventsCount: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.182+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   socket: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m    Socket {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
+[33mbackend1232 |[0m      _hadError: false,
+[33mbackend1232 |[0m      _handle: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TCP {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.183+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.554+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         owner: [Circular],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T11:51:45.556+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onread: [Function: onread],
+[36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onconnection: null,
+[36mdatabase1234 |[0m 2018-11-12T12:28:10.646+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writeQueueSize: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _consumed: true },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:10.647+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _parent: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:11.658+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _host: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _readableState: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I CONTROL  [signalProcessingThread] now exiting
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ReadableState {
+[36mdatabase1234 |[0m 2018-11-12T12:28:12.123+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
+[36mdatabase1234 |[0m 2018-11-13T04:55:55.372+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
+[33mbackend1232 |[0m         buffer: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] db version v4.0.3
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pipes: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pipesCount: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         flowing: true,
+[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] modules: none
+[33mbackend1232 |[0m         ended: false,
+[36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] build environment:
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         endEmitted: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.452+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needReadable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         emittedReadable: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.332+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:332443][1:0x7fee82757a00], txn-recover: Main recovery loop: starting at 11/12416
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readableListening: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.410+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:410924][1:0x7fee82757a00], txn-recover: Recovering log 11 through 12
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.510+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:510091][1:0x7fee82757a00], txn-recover: Recovering log 12 through 12
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         destroyed: false,
+[36mdatabase1234 |[0m 2018-11-13T04:55:56.563+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:563393][1:0x7fee82757a00], txn-recover: Set global recovery timestamp: 0
+[33mbackend1232 |[0m         defaultEncoding: 'utf8',
+[36mdatabase1234 |[0m 2018-11-13T04:55:56.805+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         awaitDrain: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] 
+[33mbackend1232 |[0m         readingMore: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decoder: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         encoding: null },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _events: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.491+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[33mbackend1232 |[0m       { end: [Array],
+[36mdatabase1234 |[0m 2018-11-13T04:55:57.559+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.303+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[33mbackend1232 |[0m         drain: [Array],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         data: [Function: bound socketOnData],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         error: [Function: socketOnError],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         close: [Array],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resume: [Function: onSocketResume],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pause: [Function: onSocketPause] },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] db version v4.0.3
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _eventsCount: 9,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _writableState: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       WritableState {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] modules: none
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] build environment:
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finalCalled: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needDrain: false,
+[36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.376+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ending: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ended: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finished: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         destroyed: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decodeStrings: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mbackend1232 |[0m         length: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writing: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corked: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:07.947+0000 I STORAGE  [initandlisten] WiredTiger message [1542190567:947936][1:0x7ff2fe131a00], txn-recover: Main recovery loop: starting at 12/6272
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:07.948+0000 I STORAGE  [initandlisten] WiredTiger message [1542190567:948206][1:0x7ff2fe131a00], txn-recover: Recovering log 12 through 13
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferProcessing: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.146+0000 I STORAGE  [initandlisten] WiredTiger message [1542190568:146945][1:0x7ff2fe131a00], txn-recover: Recovering log 13 through 13
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
+[36mdatabase1234 |[0m 2018-11-14T10:16:08.211+0000 I STORAGE  [initandlisten] WiredTiger message [1542190568:211376][1:0x7ff2fe131a00], txn-recover: Set global recovery timestamp: 0
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writecb: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.523+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writelen: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.784+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequest: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         lastBufferedRequest: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pendingcb: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         prefinished: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         errorEmitted: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequestCount: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corkedRequestsFree: [Object] },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:09.113+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      writable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      allowHalfOpen: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:09.117+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[33mbackend1232 |[0m      _bytesDispatched: 40414,
+[36mdatabase1234 |[0m 2018-11-14T10:16:10.043+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[33mbackend1232 |[0m      _sockname: null,
+[36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+[36mdatabase1234 |[0m 2018-11-14T10:55:49.287+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.287+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _pendingData: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.296+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _pendingEncoding: '',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.402+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      server: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.402+0000 I CONTROL  [signalProcessingThread] now exiting
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       Server {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.403+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
+[36mdatabase1234 |[0m 2018-11-14T11:32:50.195+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[33mbackend1232 |[0m         _events: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] db version v4.0.3
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 2,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connections: 1,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] modules: none
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] build environment:
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _handle: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _usingSlaves: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _slaves: [],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unref: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         allowHalfOpen: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] 
+[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mbackend1232 |[0m         pauseOnConnect: false,
+[33mbackend1232 |[0m         httpAllowHalfOpen: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: 120000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         keepAliveTimeout: 5000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.901+0000 I STORAGE  [initandlisten] WiredTiger message [1542195170:901178][1:0x7f9fafa4fa00], txn-recover: Main recovery loop: starting at 13/12800
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _pendingResponseData: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.982+0000 I STORAGE  [initandlisten] WiredTiger message [1542195170:982251][1:0x7f9fafa4fa00], txn-recover: Recovering log 13 through 14
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.040+0000 I STORAGE  [initandlisten] WiredTiger message [1542195171:40806][1:0x7f9fafa4fa00], txn-recover: Recovering log 14 through 14
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.107+0000 I STORAGE  [initandlisten] WiredTiger message [1542195171:107304][1:0x7f9fafa4fa00], txn-recover: Set global recovery timestamp: 0
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         maxHeadersCount: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.265+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connectionKey: '6::::5000',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
+[33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _server: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 W CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.569+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       Server {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:51.570+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 2,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connections: 1,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _handle: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _usingSlaves: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _slaves: [],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unref: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         allowHalfOpen: true,
+[33mbackend1232 |[0m         pauseOnConnect: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         httpAllowHalfOpen: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: 120000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         keepAliveTimeout: 5000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _pendingResponseData: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         maxHeadersCount: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connectionKey: '6::::5000',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleTimeout: 120000,
+[33mbackend1232 |[0m      _idleNext: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TimersList {
+[33mbackend1232 |[0m         _idleNext: [Circular],
+[33mbackend1232 |[0m         _idlePrev: [Circular],
+[33mbackend1232 |[0m         _timer: [Object],
+[33mbackend1232 |[0m         _unrefed: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         msecs: 120000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         nextTick: false },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idlePrev: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TimersList {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Circular],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idlePrev: [Circular],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _timer: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unrefed: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         msecs: 120000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         nextTick: false },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleStart: 1533575,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _destroyed: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      parser: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       HTTPParser {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '0': [Function: parserOnHeaders],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '1': [Function: parserOnHeadersComplete],
+[33mbackend1232 |[0m         '2': [Function: parserOnBody],
+[33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
+[33mbackend1232 |[0m         '4': [Function: bound onParserExecute],
+[33mbackend1232 |[0m         _headers: [],
+[33mbackend1232 |[0m         _url: '',
+[33mbackend1232 |[0m         _consumed: true,
+[33mbackend1232 |[0m         socket: [Circular],
+[33mbackend1232 |[0m         incoming: [Circular],
+[33mbackend1232 |[0m         outgoing: null,
+[33mbackend1232 |[0m         maxHeaderPairs: 2000,
+[33mbackend1232 |[0m         onIncoming: [Function: bound parserOnIncoming] },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      on: [Function: socketOnWrap],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _paused: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _httpMessage: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ServerResponse {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 1,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         output: [],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputEncodings: [],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputCallbacks: [],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputSize: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _last: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         upgrading: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         chunkedEncoding: false,
+[33mbackend1232 |[0m         shouldKeepAlive: true,
+[33mbackend1232 |[0m         useChunkedEncodingByDefault: true,
+[33mbackend1232 |[0m         sendDate: true,
+[33mbackend1232 |[0m         _removedConnection: false,
+[33mbackend1232 |[0m         _removedContLen: false,
+[33mbackend1232 |[0m         _removedTE: false,
+[33mbackend1232 |[0m         _contentLength: null,
+[33mbackend1232 |[0m         _hasBody: true,
+[33mbackend1232 |[0m         _trailer: '',
+[33mbackend1232 |[0m         finished: false,
+[33mbackend1232 |[0m         _headerSent: false,
+[33mbackend1232 |[0m         socket: [Circular],
+[33mbackend1232 |[0m         connection: [Circular],
+[33mbackend1232 |[0m         _header: null,
+[33mbackend1232 |[0m         _onPendingData: [Function: bound updateOutgoingData],
+[33mbackend1232 |[0m         _sent100: false,
+[33mbackend1232 |[0m         _expect_continue: false,
+[33mbackend1232 |[0m         req: [Circular],
+[33mbackend1232 |[0m         locals: {},
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
+[33mbackend1232 |[0m      [Symbol(asyncId)]: 41,
+[33mbackend1232 |[0m      [Symbol(bytesRead)]: 0,
+[33mbackend1232 |[0m      [Symbol(asyncId)]: 42,
+[33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 41 },
+[33mbackend1232 |[0m   connection: 
 [33mbackend1232 |[0m    Socket {
 [33mbackend1232 |[0m      connecting: false,
 [33mbackend1232 |[0m      _hadError: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
 [33mbackend1232 |[0m      _handle: 
-[36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] 
 [33mbackend1232 |[0m       TCP {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         owner: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:55.495+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[33mbackend1232 |[0m         reading: true,
+[33mbackend1232 |[0m         owner: [Circular],
 [33mbackend1232 |[0m         onread: [Function: onread],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onconnection: null,
-[36mdatabase1234 |[0m 2018-11-13T04:55:56.332+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:332443][1:0x7fee82757a00], txn-recover: Main recovery loop: starting at 11/12416
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writeQueueSize: 0,
-[36mdatabase1234 |[0m 2018-11-13T04:55:56.410+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:410924][1:0x7fee82757a00], txn-recover: Recovering log 11 through 12
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _consumed: true },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.510+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:510091][1:0x7fee82757a00], txn-recover: Recovering log 12 through 12
+[33mbackend1232 |[0m         onconnection: null,
+[33mbackend1232 |[0m         writeQueueSize: 0,
+[33mbackend1232 |[0m         _consumed: true },
 [33mbackend1232 |[0m      _parent: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.563+0000 I STORAGE  [initandlisten] WiredTiger message [1542084956:563393][1:0x7fee82757a00], txn-recover: Set global recovery timestamp: 0
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _host: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:56.805+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _readableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ReadableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         buffer: [Object],
-[36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
-[33mbackend1232 |[0m         length: 0,
-[36mdatabase1234 |[0m 2018-11-13T04:55:57.242+0000 I CONTROL  [initandlisten] 
+[33mbackend1232 |[0m      _host: null,
+[33mbackend1232 |[0m      _readableState: 
+[33mbackend1232 |[0m       ReadableState {
+[33mbackend1232 |[0m         objectMode: false,
+[33mbackend1232 |[0m         highWaterMark: 16384,
+[33mbackend1232 |[0m         buffer: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
 [33mbackend1232 |[0m         pipes: null,
-[36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 W CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pipesCount: 0,
-[36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 W CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         flowing: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.243+0000 I CONTROL  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ended: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.491+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         endEmitted: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-13T04:55:57.559+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.303+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needReadable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] db version v4.0.3
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         emittedReadable: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] allocator: tcmalloc
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readableListening: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] modules: none
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] build environment:
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     distarch: x86_64
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten]     target_arch: x86_64
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.373+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.376+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         awaitDrain: 0,
+[33mbackend1232 |[0m         pipesCount: 0,
+[33mbackend1232 |[0m         flowing: true,
+[33mbackend1232 |[0m         ended: false,
+[33mbackend1232 |[0m         endEmitted: false,
+[33mbackend1232 |[0m         reading: true,
+[33mbackend1232 |[0m         sync: false,
+[33mbackend1232 |[0m         needReadable: true,
+[33mbackend1232 |[0m         emittedReadable: false,
+[33mbackend1232 |[0m         readableListening: false,
+[33mbackend1232 |[0m         resumeScheduled: false,
+[33mbackend1232 |[0m         destroyed: false,
+[33mbackend1232 |[0m         defaultEncoding: 'utf8',
+[33mbackend1232 |[0m         awaitDrain: 0,
 [33mbackend1232 |[0m         readingMore: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decoder: null,
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mbackend1232 |[0m         decoder: null,
 [33mbackend1232 |[0m         encoding: null },
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
 [33mbackend1232 |[0m      readable: true,
-[36mdatabase1234 |[0m 2018-11-14T10:16:06.391+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
 [33mbackend1232 |[0m      domain: null,
-[36mdatabase1234 |[0m 2018-11-14T10:16:07.947+0000 I STORAGE  [initandlisten] WiredTiger message [1542190567:947936][1:0x7ff2fe131a00], txn-recover: Main recovery loop: starting at 12/6272
 [33mbackend1232 |[0m      _events: 
-[36mdatabase1234 |[0m 2018-11-14T10:16:07.948+0000 I STORAGE  [initandlisten] WiredTiger message [1542190567:948206][1:0x7ff2fe131a00], txn-recover: Recovering log 12 through 13
 [33mbackend1232 |[0m       { end: [Array],
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.146+0000 I STORAGE  [initandlisten] WiredTiger message [1542190568:146945][1:0x7ff2fe131a00], txn-recover: Recovering log 13 through 13
 [33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.211+0000 I STORAGE  [initandlisten] WiredTiger message [1542190568:211376][1:0x7ff2fe131a00], txn-recover: Set global recovery timestamp: 0
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.523+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
 [33mbackend1232 |[0m         drain: [Array],
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.784+0000 I CONTROL  [initandlisten] 
 [33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
 [33mbackend1232 |[0m         data: [Function: bound socketOnData],
 [33mbackend1232 |[0m         error: [Function: socketOnError],
 [33mbackend1232 |[0m         close: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resume: [Function: onSocketResume],
+[33mbackend1232 |[0m         resume: [Function: onSocketResume],
 [33mbackend1232 |[0m         pause: [Function: onSocketPause] },
 [33mbackend1232 |[0m      _eventsCount: 9,
 [33mbackend1232 |[0m      _maxListeners: undefined,
@@ -231,96 +482,47 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         finalCalled: false,
 [33mbackend1232 |[0m         needDrain: false,
 [33mbackend1232 |[0m         ending: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
 [33mbackend1232 |[0m         ended: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
 [33mbackend1232 |[0m         finished: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] 
 [33mbackend1232 |[0m         destroyed: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 W CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 W CONTROL  [initandlisten] 
 [33mbackend1232 |[0m         decodeStrings: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:08.785+0000 I CONTROL  [initandlisten] 
 [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[36mdatabase1234 |[0m 2018-11-14T10:16:09.113+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
-[33mbackend1232 |[0m         length: 0,
-[36mdatabase1234 |[0m 2018-11-14T10:16:09.117+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
 [33mbackend1232 |[0m         writing: false,
-[36mdatabase1234 |[0m 2018-11-14T10:16:10.043+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
 [33mbackend1232 |[0m         corked: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
 [33mbackend1232 |[0m         sync: false,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
 [33mbackend1232 |[0m         bufferProcessing: false,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.286+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
 [33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.287+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
 [33mbackend1232 |[0m         writecb: null,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.287+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
 [33mbackend1232 |[0m         writelen: 0,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.296+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
 [33mbackend1232 |[0m         bufferedRequest: null,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.402+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
 [33mbackend1232 |[0m         lastBufferedRequest: null,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.402+0000 I CONTROL  [signalProcessingThread] now exiting
 [33mbackend1232 |[0m         pendingcb: 0,
-[36mdatabase1234 |[0m 2018-11-14T10:55:49.403+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
 [33mbackend1232 |[0m         prefinished: false,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.195+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
 [33mbackend1232 |[0m         errorEmitted: false,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5bee0b2c620e
 [33mbackend1232 |[0m         bufferedRequestCount: 0,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] db version v4.0.3
 [33mbackend1232 |[0m         corkedRequestsFree: [Object] },
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
 [33mbackend1232 |[0m      writable: true,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
 [33mbackend1232 |[0m      allowHalfOpen: true,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] allocator: tcmalloc
 [33mbackend1232 |[0m      _bytesDispatched: 40414,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] modules: none
 [33mbackend1232 |[0m      _sockname: null,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] build environment:
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     distarch: x86_64
 [33mbackend1232 |[0m      _pendingData: null,
 [33mbackend1232 |[0m      _pendingEncoding: '',
 [33mbackend1232 |[0m      server: 
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten]     target_arch: x86_64
 [33mbackend1232 |[0m       Server {
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
 [33mbackend1232 |[0m         domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
 [33mbackend1232 |[0m         _events: [Object],
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] 
 [33mbackend1232 |[0m         _eventsCount: 2,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
 [33mbackend1232 |[0m         _maxListeners: undefined,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
 [33mbackend1232 |[0m         _connections: 1,
 [33mbackend1232 |[0m         _handle: [Object],
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.202+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
 [33mbackend1232 |[0m         _usingSlaves: false,
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.901+0000 I STORAGE  [initandlisten] WiredTiger message [1542195170:901178][1:0x7f9fafa4fa00], txn-recover: Main recovery loop: starting at 13/12800
 [33mbackend1232 |[0m         _slaves: [],
-[36mdatabase1234 |[0m 2018-11-14T11:32:50.982+0000 I STORAGE  [initandlisten] WiredTiger message [1542195170:982251][1:0x7f9fafa4fa00], txn-recover: Recovering log 13 through 14
 [33mbackend1232 |[0m         _unref: false,
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.040+0000 I STORAGE  [initandlisten] WiredTiger message [1542195171:40806][1:0x7f9fafa4fa00], txn-recover: Recovering log 14 through 14
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.107+0000 I STORAGE  [initandlisten] WiredTiger message [1542195171:107304][1:0x7f9fafa4fa00], txn-recover: Set global recovery timestamp: 0
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.265+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
 [33mbackend1232 |[0m         allowHalfOpen: true,
 [33mbackend1232 |[0m         pauseOnConnect: false,
 [33mbackend1232 |[0m         httpAllowHalfOpen: false,
 [33mbackend1232 |[0m         timeout: 120000,
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 W CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 W CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.497+0000 I CONTROL  [initandlisten] 
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.569+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
-[36mdatabase1234 |[0m 2018-11-14T11:32:51.570+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
 [33mbackend1232 |[0m         keepAliveTimeout: 5000,
 [33mbackend1232 |[0m         _pendingResponseData: 0,
 [33mbackend1232 |[0m         maxHeadersCount: null,
@@ -331,7 +533,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _server: 
 [33mbackend1232 |[0m       Server {
 [33mbackend1232 |[0m         domain: null,
-[33mbackend1232 |[0m         _events: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
 [33mbackend1232 |[0m         _eventsCount: 2,
 [33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         _connections: 1,
@@ -363,454 +565,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m       TimersList {
 [33mbackend1232 |[0m         _idleNext: [Circular],
 [33mbackend1232 |[0m         _idlePrev: [Circular],
-[33mbackend1232 |[0m         _timer: [Object],
-[33mbackend1232 |[0m         _unrefed: true,
-[33mbackend1232 |[0m         msecs: 120000,
-[33mbackend1232 |[0m         nextTick: false },
-[33mbackend1232 |[0m      _idleStart: 1533575,
-[33mbackend1232 |[0m      _destroyed: false,
-[33mbackend1232 |[0m      parser: 
-[33mbackend1232 |[0m       HTTPParser {
-[33mbackend1232 |[0m         '0': [Function: parserOnHeaders],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '1': [Function: parserOnHeadersComplete],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '2': [Function: parserOnBody],
-[33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '4': [Function: bound onParserExecute],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _headers: [],
-[33mbackend1232 |[0m         _url: '',
-[33mbackend1232 |[0m         _consumed: true,
-[33mbackend1232 |[0m         socket: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         incoming: [Circular],
-[33mbackend1232 |[0m         outgoing: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         maxHeaderPairs: 2000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onIncoming: [Function: bound parserOnIncoming] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      on: [Function: socketOnWrap],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _paused: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _httpMessage: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ServerResponse {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 1,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         output: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputEncodings: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputCallbacks: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputSize: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _last: false,
-[33mbackend1232 |[0m         upgrading: false,
-[33mbackend1232 |[0m         chunkedEncoding: false,
-[33mbackend1232 |[0m         shouldKeepAlive: true,
-[33mbackend1232 |[0m         useChunkedEncodingByDefault: true,
-[33mbackend1232 |[0m         sendDate: true,
-[33mbackend1232 |[0m         _removedConnection: false,
-[33mbackend1232 |[0m         _removedContLen: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _removedTE: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _contentLength: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _hasBody: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _trailer: '',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finished: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _headerSent: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         socket: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         connection: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _header: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _onPendingData: [Function: bound updateOutgoingData],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _sent100: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _expect_continue: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         req: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         locals: {},
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(asyncId)]: 41,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(bytesRead)]: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(asyncId)]: 42,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 41 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   connection: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m    Socket {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _hadError: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _handle: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TCP {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         owner: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onread: [Function: onread],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onconnection: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writeQueueSize: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _consumed: true },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _parent: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _host: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _readableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ReadableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
-[33mbackend1232 |[0m         buffer: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
-[33mbackend1232 |[0m         pipes: null,
-[33mbackend1232 |[0m         pipesCount: 0,
-[33mbackend1232 |[0m         flowing: true,
-[33mbackend1232 |[0m         ended: false,
-[33mbackend1232 |[0m         endEmitted: false,
-[33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needReadable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         emittedReadable: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readableListening: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
-[33mbackend1232 |[0m         destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         awaitDrain: 0,
-[33mbackend1232 |[0m         readingMore: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decoder: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         encoding: null },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _events: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       { end: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         drain: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         data: [Function: bound socketOnData],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         error: [Function: socketOnError],
-[33mbackend1232 |[0m         close: [Array],
-[33mbackend1232 |[0m         resume: [Function: onSocketResume],
-[33mbackend1232 |[0m         pause: [Function: onSocketPause] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _eventsCount: 9,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _writableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       WritableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finalCalled: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needDrain: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ending: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ended: false,
-[33mbackend1232 |[0m         finished: false,
-[33mbackend1232 |[0m         destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decodeStrings: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writing: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corked: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferProcessing: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writecb: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writelen: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequest: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         lastBufferedRequest: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pendingcb: 0,
-[33mbackend1232 |[0m         prefinished: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         errorEmitted: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequestCount: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corkedRequestsFree: [Object] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      writable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      allowHalfOpen: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _bytesDispatched: 40414,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _sockname: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _pendingData: null,
-[33mbackend1232 |[0m      _pendingEncoding: '',
-[33mbackend1232 |[0m      server: 
-[33mbackend1232 |[0m       Server {
-[33mbackend1232 |[0m         domain: null,
-[33mbackend1232 |[0m         _events: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 2,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connections: 1,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _handle: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _usingSlaves: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _slaves: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unref: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         allowHalfOpen: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pauseOnConnect: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         httpAllowHalfOpen: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         keepAliveTimeout: 5000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _pendingResponseData: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         maxHeadersCount: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connectionKey: '6::::5000',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _server: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       Server {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
-[33mbackend1232 |[0m         _eventsCount: 2,
-[33mbackend1232 |[0m         _maxListeners: undefined,
-[33mbackend1232 |[0m         _connections: 1,
-[33mbackend1232 |[0m         _handle: [Object],
-[33mbackend1232 |[0m         _usingSlaves: false,
-[33mbackend1232 |[0m         _slaves: [],
-[33mbackend1232 |[0m         _unref: false,
-[33mbackend1232 |[0m         allowHalfOpen: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pauseOnConnect: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         httpAllowHalfOpen: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         keepAliveTimeout: 5000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _pendingResponseData: 0,
-[33mbackend1232 |[0m         maxHeadersCount: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connectionKey: '6::::5000',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleTimeout: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleNext: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TimersList {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idlePrev: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _timer: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unrefed: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         msecs: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         nextTick: false },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idlePrev: 
-[33mbackend1232 |[0m       TimersList {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idlePrev: [Circular],
-[33mbackend1232 |[0m         _timer: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unrefed: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         msecs: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         nextTick: false },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleStart: 1533575,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      parser: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       HTTPParser {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '0': [Function: parserOnHeaders],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '1': [Function: parserOnHeadersComplete],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '2': [Function: parserOnBody],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '4': [Function: bound onParserExecute],
-[33mbackend1232 |[0m         _headers: [],
-[33mbackend1232 |[0m         _url: '',
-[33mbackend1232 |[0m         _consumed: true,
-[33mbackend1232 |[0m         socket: [Circular],
-[33mbackend1232 |[0m         incoming: [Circular],
-[33mbackend1232 |[0m         outgoing: null,
-[33mbackend1232 |[0m         maxHeaderPairs: 2000,
-[33mbackend1232 |[0m         onIncoming: [Function: bound parserOnIncoming] },
-[33mbackend1232 |[0m      on: [Function: socketOnWrap],
-[33mbackend1232 |[0m      _paused: false,
-[33mbackend1232 |[0m      _httpMessage: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ServerResponse {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
-[33mbackend1232 |[0m         _events: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 1,
-[33mbackend1232 |[0m         _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         output: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputEncodings: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputCallbacks: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputSize: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _last: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         upgrading: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         chunkedEncoding: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         shouldKeepAlive: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         useChunkedEncodingByDefault: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sendDate: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _removedConnection: false,
-[33mbackend1232 |[0m         _removedContLen: false,
-[33mbackend1232 |[0m         _removedTE: false,
-[33mbackend1232 |[0m         _contentLength: null,
-[33mbackend1232 |[0m         _hasBody: true,
-[33mbackend1232 |[0m         _trailer: '',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finished: false,
-[33mbackend1232 |[0m         _headerSent: false,
-[33mbackend1232 |[0m         socket: [Circular],
-[33mbackend1232 |[0m         connection: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _header: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _onPendingData: [Function: bound updateOutgoingData],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _sent100: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _expect_continue: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         req: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         locals: {},
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(asyncId)]: 41,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(bytesRead)]: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(asyncId)]: 42,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 41 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   httpVersionMajor: 1,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   httpVersionMinor: 1,
-[33mbackend1232 |[0m   httpVersion: '1.1',
-[33mbackend1232 |[0m   complete: true,
-[33mbackend1232 |[0m   headers: 
-[33mbackend1232 |[0m    { host: 'localhost:5002',
-[33mbackend1232 |[0m      connection: 'keep-alive',
-[33mbackend1232 |[0m      'cache-control': 'max-age=0',
-[33mbackend1232 |[0m      'upgrade-insecure-requests': '1',
-[33mbackend1232 |[0m      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
-[33mbackend1232 |[0m      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-[33mbackend1232 |[0m      referer: 'https://gitlab.com/',
-[33mbackend1232 |[0m      'accept-encoding': 'gzip, deflate, br',
-[33mbackend1232 |[0m      'accept-language': 'en-US,en;q=0.9',
-[33mbackend1232 |[0m      cookie: 'io=AP0-JvCbCHDVUWIoAAAD' },
-[33mbackend1232 |[0m   rawHeaders: 
-[33mbackend1232 |[0m    [ 'Host',
-[33mbackend1232 |[0m      'localhost:5002',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'Connection',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'keep-alive',
-[33mbackend1232 |[0m      'Cache-Control',
-[33mbackend1232 |[0m      'max-age=0',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'Upgrade-Insecure-Requests',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      '1',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'User-Agent',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
-[33mbackend1232 |[0m      'Accept',
-[33mbackend1232 |[0m      'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-[33mbackend1232 |[0m      'Referer',
-[33mbackend1232 |[0m      'https://gitlab.com/',
-[33mbackend1232 |[0m      'Accept-Encoding',
-[33mbackend1232 |[0m      'gzip, deflate, br',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'Accept-Language',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'en-US,en;q=0.9',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'Cookie',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'io=AP0-JvCbCHDVUWIoAAAD' ],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   trailers: {},
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   rawTrailers: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   upgrade: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   url: '/auth/gitlab?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   method: 'GET',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   statusCode: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   statusMessage: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   client: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m    Socket {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _hadError: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _handle: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       TCP {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         owner: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onread: [Function: onread],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onconnection: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         writeQueueSize: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _consumed: true },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _parent: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _host: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _readableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ReadableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         buffer: [Object],
-[33mbackend1232 |[0m         length: 0,
-[33mbackend1232 |[0m         pipes: null,
-[33mbackend1232 |[0m         pipesCount: 0,
-[33mbackend1232 |[0m         flowing: true,
-[33mbackend1232 |[0m         ended: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         endEmitted: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
-[33mbackend1232 |[0m         needReadable: true,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         emittedReadable: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readableListening: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         destroyed: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         awaitDrain: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readingMore: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         decoder: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         encoding: null },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      readable: true,
-[33mbackend1232 |[0m      domain: null,
-[33mbackend1232 |[0m      _events: 
-[33mbackend1232 |[0m       { end: [Array],
-[33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
-[33mbackend1232 |[0m         drain: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         data: [Function: bound socketOnData],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         error: [Function: socketOnError],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         close: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resume: [Function: onSocketResume],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pause: [Function: onSocketPause] },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _eventsCount: 9,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _writableState: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       WritableState {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         objectMode: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finalCalled: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         needDrain: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ending: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         ended: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finished: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         destroyed: false,
-[33mbackend1232 |[0m         decodeStrings: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         length: 0,
-[33mbackend1232 |[0m         writing: false,
-[33mbackend1232 |[0m         corked: 0,
-[33mbackend1232 |[0m         sync: false,
-[33mbackend1232 |[0m         bufferProcessing: false,
-[33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
-[33mbackend1232 |[0m         writecb: null,
-[33mbackend1232 |[0m         writelen: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequest: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         lastBufferedRequest: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         pendingcb: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         prefinished: false,
-[33mbackend1232 |[0m         errorEmitted: false,
-[33mbackend1232 |[0m         bufferedRequestCount: 0,
-[33mbackend1232 |[0m         corkedRequestsFree: [Object] },
-[33mbackend1232 |[0m      writable: true,
-[33mbackend1232 |[0m      allowHalfOpen: true,
-[33mbackend1232 |[0m      _bytesDispatched: 40414,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _sockname: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _pendingData: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _pendingEncoding: '',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      server: 
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       Server {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _events: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 2,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connections: 1,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _handle: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _usingSlaves: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _slaves: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unref: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         allowHalfOpen: true,
-[33mbackend1232 |[0m         pauseOnConnect: false,
-[33mbackend1232 |[0m         httpAllowHalfOpen: false,
-[33mbackend1232 |[0m         timeout: 120000,
-[33mbackend1232 |[0m         keepAliveTimeout: 5000,
-[33mbackend1232 |[0m         _pendingResponseData: 0,
-[33mbackend1232 |[0m         maxHeadersCount: null,
-[33mbackend1232 |[0m         _connectionKey: '6::::5000',
-[33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
-[33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
-[33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
-[33mbackend1232 |[0m      _server: 
-[33mbackend1232 |[0m       Server {
-[33mbackend1232 |[0m         domain: null,
-[33mbackend1232 |[0m         _events: [Object],
-[33mbackend1232 |[0m         _eventsCount: 2,
-[33mbackend1232 |[0m         _maxListeners: undefined,
-[33mbackend1232 |[0m         _connections: 1,
-[33mbackend1232 |[0m         _handle: [Object],
-[33mbackend1232 |[0m         _usingSlaves: false,
-[33mbackend1232 |[0m         _slaves: [],
-[33mbackend1232 |[0m         _unref: false,
-[33mbackend1232 |[0m         allowHalfOpen: true,
-[33mbackend1232 |[0m         pauseOnConnect: false,
-[33mbackend1232 |[0m         httpAllowHalfOpen: false,
-[33mbackend1232 |[0m         timeout: 120000,
-[33mbackend1232 |[0m         keepAliveTimeout: 5000,
-[33mbackend1232 |[0m         _pendingResponseData: 0,
-[33mbackend1232 |[0m         maxHeadersCount: null,
-[33mbackend1232 |[0m         _connectionKey: '6::::5000',
-[33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
-[33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
-[33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
-[33mbackend1232 |[0m      _idleTimeout: 120000,
-[33mbackend1232 |[0m      _idleNext: 
-[33mbackend1232 |[0m       TimersList {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Circular],
-[33mbackend1232 |[0m         _idlePrev: [Circular],
-[33mbackend1232 |[0m         _timer: [Object],
-[33mbackend1232 |[0m         _unrefed: true,
-[33mbackend1232 |[0m         msecs: 120000,
-[33mbackend1232 |[0m         nextTick: false },
-[33mbackend1232 |[0m      _idlePrev: 
-[33mbackend1232 |[0m       TimersList {
-[33mbackend1232 |[0m         _idleNext: [Circular],
-[33mbackend1232 |[0m         _idlePrev: [Circular],
-[33mbackend1232 |[0m         _timer: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _timer: [Object],
 [33mbackend1232 |[0m         _unrefed: true,
 [33mbackend1232 |[0m         msecs: 120000,
 [33mbackend1232 |[0m         nextTick: false },
@@ -840,7 +595,252 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _eventsCount: 1,
 [33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         output: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         outputEncodings: [],
+[33mbackend1232 |[0m         outputEncodings: [],
+[33mbackend1232 |[0m         outputCallbacks: [],
+[33mbackend1232 |[0m         outputSize: 0,
+[33mbackend1232 |[0m         writable: true,
+[33mbackend1232 |[0m         _last: false,
+[33mbackend1232 |[0m         upgrading: false,
+[33mbackend1232 |[0m         chunkedEncoding: false,
+[33mbackend1232 |[0m         shouldKeepAlive: true,
+[33mbackend1232 |[0m         useChunkedEncodingByDefault: true,
+[33mbackend1232 |[0m         sendDate: true,
+[33mbackend1232 |[0m         _removedConnection: false,
+[33mbackend1232 |[0m         _removedContLen: false,
+[33mbackend1232 |[0m         _removedTE: false,
+[33mbackend1232 |[0m         _contentLength: null,
+[33mbackend1232 |[0m         _hasBody: true,
+[33mbackend1232 |[0m         _trailer: '',
+[33mbackend1232 |[0m         finished: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _headerSent: false,
+[33mbackend1232 |[0m         socket: [Circular],
+[33mbackend1232 |[0m         connection: [Circular],
+[33mbackend1232 |[0m         _header: null,
+[33mbackend1232 |[0m         _onPendingData: [Function: bound updateOutgoingData],
+[33mbackend1232 |[0m         _sent100: false,
+[33mbackend1232 |[0m         _expect_continue: false,
+[33mbackend1232 |[0m         req: [Circular],
+[33mbackend1232 |[0m         locals: {},
+[33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
+[33mbackend1232 |[0m      [Symbol(asyncId)]: 41,
+[33mbackend1232 |[0m      [Symbol(bytesRead)]: 0,
+[33mbackend1232 |[0m      [Symbol(asyncId)]: 42,
+[33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 41 },
+[33mbackend1232 |[0m   httpVersionMajor: 1,
+[33mbackend1232 |[0m   httpVersionMinor: 1,
+[33mbackend1232 |[0m   httpVersion: '1.1',
+[33mbackend1232 |[0m   complete: true,
+[33mbackend1232 |[0m   headers: 
+[33mbackend1232 |[0m    { host: 'localhost:5002',
+[33mbackend1232 |[0m      connection: 'keep-alive',
+[33mbackend1232 |[0m      'cache-control': 'max-age=0',
+[33mbackend1232 |[0m      'upgrade-insecure-requests': '1',
+[33mbackend1232 |[0m      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+[33mbackend1232 |[0m      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+[33mbackend1232 |[0m      referer: 'https://gitlab.com/',
+[33mbackend1232 |[0m      'accept-encoding': 'gzip, deflate, br',
+[33mbackend1232 |[0m      'accept-language': 'en-US,en;q=0.9',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      cookie: 'io=AP0-JvCbCHDVUWIoAAAD' },
+[33mbackend1232 |[0m   rawHeaders: 
+[33mbackend1232 |[0m    [ 'Host',
+[33mbackend1232 |[0m      'localhost:5002',
+[33mbackend1232 |[0m      'Connection',
+[33mbackend1232 |[0m      'keep-alive',
+[33mbackend1232 |[0m      'Cache-Control',
+[33mbackend1232 |[0m      'max-age=0',
+[33mbackend1232 |[0m      'Upgrade-Insecure-Requests',
+[33mbackend1232 |[0m      '1',
+[33mbackend1232 |[0m      'User-Agent',
+[33mbackend1232 |[0m      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+[33mbackend1232 |[0m      'Accept',
+[33mbackend1232 |[0m      'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+[33mbackend1232 |[0m      'Referer',
+[33mbackend1232 |[0m      'https://gitlab.com/',
+[33mbackend1232 |[0m      'Accept-Encoding',
+[33mbackend1232 |[0m      'gzip, deflate, br',
+[33mbackend1232 |[0m      'Accept-Language',
+[33mbackend1232 |[0m      'en-US,en;q=0.9',
+[33mbackend1232 |[0m      'Cookie',
+[33mbackend1232 |[0m      'io=AP0-JvCbCHDVUWIoAAAD' ],
+[33mbackend1232 |[0m   trailers: {},
+[33mbackend1232 |[0m   rawTrailers: [],
+[33mbackend1232 |[0m   upgrade: false,
+[33mbackend1232 |[0m   url: '/auth/gitlab?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
+[33mbackend1232 |[0m   method: 'GET',
+[33mbackend1232 |[0m   statusCode: null,
+[33mbackend1232 |[0m   statusMessage: null,
+[33mbackend1232 |[0m   client: 
+[33mbackend1232 |[0m    Socket {
+[33mbackend1232 |[0m      connecting: false,
+[33mbackend1232 |[0m      _hadError: false,
+[33mbackend1232 |[0m      _handle: 
+[33mbackend1232 |[0m       TCP {
+[33mbackend1232 |[0m         reading: true,
+[33mbackend1232 |[0m         owner: [Circular],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         onread: [Function: onread],
+[33mbackend1232 |[0m         onconnection: null,
+[33mbackend1232 |[0m         writeQueueSize: 0,
+[33mbackend1232 |[0m         _consumed: true },
+[33mbackend1232 |[0m      _parent: null,
+[33mbackend1232 |[0m      _host: null,
+[33mbackend1232 |[0m      _readableState: 
+[33mbackend1232 |[0m       ReadableState {
+[33mbackend1232 |[0m         objectMode: false,
+[33mbackend1232 |[0m         highWaterMark: 16384,
+[33mbackend1232 |[0m         buffer: [Object],
+[33mbackend1232 |[0m         length: 0,
+[33mbackend1232 |[0m         pipes: null,
+[33mbackend1232 |[0m         pipesCount: 0,
+[33mbackend1232 |[0m         flowing: true,
+[33mbackend1232 |[0m         ended: false,
+[33mbackend1232 |[0m         endEmitted: false,
+[33mbackend1232 |[0m         reading: true,
+[33mbackend1232 |[0m         sync: false,
+[33mbackend1232 |[0m         needReadable: true,
+[33mbackend1232 |[0m         emittedReadable: false,
+[33mbackend1232 |[0m         readableListening: false,
+[33mbackend1232 |[0m         resumeScheduled: false,
+[33mbackend1232 |[0m         destroyed: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         defaultEncoding: 'utf8',
+[33mbackend1232 |[0m         awaitDrain: 0,
+[33mbackend1232 |[0m         readingMore: false,
+[33mbackend1232 |[0m         decoder: null,
+[33mbackend1232 |[0m         encoding: null },
+[33mbackend1232 |[0m      readable: true,
+[33mbackend1232 |[0m      domain: null,
+[33mbackend1232 |[0m      _events: 
+[33mbackend1232 |[0m       { end: [Array],
+[33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
+[33mbackend1232 |[0m         drain: [Array],
+[33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
+[33mbackend1232 |[0m         data: [Function: bound socketOnData],
+[33mbackend1232 |[0m         error: [Function: socketOnError],
+[33mbackend1232 |[0m         close: [Array],
+[33mbackend1232 |[0m         resume: [Function: onSocketResume],
+[33mbackend1232 |[0m         pause: [Function: onSocketPause] },
+[33mbackend1232 |[0m      _eventsCount: 9,
+[33mbackend1232 |[0m      _maxListeners: undefined,
+[33mbackend1232 |[0m      _writableState: 
+[33mbackend1232 |[0m       WritableState {
+[33mbackend1232 |[0m         objectMode: false,
+[33mbackend1232 |[0m         highWaterMark: 16384,
+[33mbackend1232 |[0m         finalCalled: false,
+[33mbackend1232 |[0m         needDrain: false,
+[33mbackend1232 |[0m         ending: false,
+[33mbackend1232 |[0m         ended: false,
+[33mbackend1232 |[0m         finished: false,
+[33mbackend1232 |[0m         destroyed: false,
+[33mbackend1232 |[0m         decodeStrings: false,
+[33mbackend1232 |[0m         defaultEncoding: 'utf8',
+[33mbackend1232 |[0m         length: 0,
+[33mbackend1232 |[0m         writing: false,
+[33mbackend1232 |[0m         corked: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         sync: false,
+[33mbackend1232 |[0m         bufferProcessing: false,
+[33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
+[33mbackend1232 |[0m         writecb: null,
+[33mbackend1232 |[0m         writelen: 0,
+[33mbackend1232 |[0m         bufferedRequest: null,
+[33mbackend1232 |[0m         lastBufferedRequest: null,
+[33mbackend1232 |[0m         pendingcb: 0,
+[33mbackend1232 |[0m         prefinished: false,
+[33mbackend1232 |[0m         errorEmitted: false,
+[33mbackend1232 |[0m         bufferedRequestCount: 0,
+[33mbackend1232 |[0m         corkedRequestsFree: [Object] },
+[33mbackend1232 |[0m      writable: true,
+[33mbackend1232 |[0m      allowHalfOpen: true,
+[33mbackend1232 |[0m      _bytesDispatched: 40414,
+[33mbackend1232 |[0m      _sockname: null,
+[33mbackend1232 |[0m      _pendingData: null,
+[33mbackend1232 |[0m      _pendingEncoding: '',
+[33mbackend1232 |[0m      server: 
+[33mbackend1232 |[0m       Server {
+[33mbackend1232 |[0m         domain: null,
+[33mbackend1232 |[0m         _events: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 2,
+[33mbackend1232 |[0m         _maxListeners: undefined,
+[33mbackend1232 |[0m         _connections: 1,
+[33mbackend1232 |[0m         _handle: [Object],
+[33mbackend1232 |[0m         _usingSlaves: false,
+[33mbackend1232 |[0m         _slaves: [],
+[33mbackend1232 |[0m         _unref: false,
+[33mbackend1232 |[0m         allowHalfOpen: true,
+[33mbackend1232 |[0m         pauseOnConnect: false,
+[33mbackend1232 |[0m         httpAllowHalfOpen: false,
+[33mbackend1232 |[0m         timeout: 120000,
+[33mbackend1232 |[0m         keepAliveTimeout: 5000,
+[33mbackend1232 |[0m         _pendingResponseData: 0,
+[33mbackend1232 |[0m         maxHeadersCount: null,
+[33mbackend1232 |[0m         _connectionKey: '6::::5000',
+[33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
+[33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
+[33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
+[33mbackend1232 |[0m      _server: 
+[33mbackend1232 |[0m       Server {
+[33mbackend1232 |[0m         domain: null,
+[33mbackend1232 |[0m         _events: [Object],
+[33mbackend1232 |[0m         _eventsCount: 2,
+[33mbackend1232 |[0m         _maxListeners: undefined,
+[33mbackend1232 |[0m         _connections: 1,
+[33mbackend1232 |[0m         _handle: [Object],
+[33mbackend1232 |[0m         _usingSlaves: false,
+[33mbackend1232 |[0m         _slaves: [],
+[33mbackend1232 |[0m         _unref: false,
+[33mbackend1232 |[0m         allowHalfOpen: true,
+[33mbackend1232 |[0m         pauseOnConnect: false,
+[33mbackend1232 |[0m         httpAllowHalfOpen: false,
+[33mbackend1232 |[0m         timeout: 120000,
+[33mbackend1232 |[0m         keepAliveTimeout: 5000,
+[33mbackend1232 |[0m         _pendingResponseData: 0,
+[33mbackend1232 |[0m         maxHeadersCount: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connectionKey: '6::::5000',
+[33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
+[33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
+[33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
+[33mbackend1232 |[0m      _idleTimeout: 120000,
+[33mbackend1232 |[0m      _idleNext: 
+[33mbackend1232 |[0m       TimersList {
+[33mbackend1232 |[0m         _idleNext: [Circular],
+[33mbackend1232 |[0m         _idlePrev: [Circular],
+[33mbackend1232 |[0m         _timer: [Object],
+[33mbackend1232 |[0m         _unrefed: true,
+[33mbackend1232 |[0m         msecs: 120000,
+[33mbackend1232 |[0m         nextTick: false },
+[33mbackend1232 |[0m      _idlePrev: 
+[33mbackend1232 |[0m       TimersList {
+[33mbackend1232 |[0m         _idleNext: [Circular],
+[33mbackend1232 |[0m         _idlePrev: [Circular],
+[33mbackend1232 |[0m         _timer: [Object],
+[33mbackend1232 |[0m         _unrefed: true,
+[33mbackend1232 |[0m         msecs: 120000,
+[33mbackend1232 |[0m         nextTick: false },
+[33mbackend1232 |[0m      _idleStart: 1533575,
+[33mbackend1232 |[0m      _destroyed: false,
+[33mbackend1232 |[0m      parser: 
+[33mbackend1232 |[0m       HTTPParser {
+[33mbackend1232 |[0m         '0': [Function: parserOnHeaders],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '1': [Function: parserOnHeadersComplete],
+[33mbackend1232 |[0m         '2': [Function: parserOnBody],
+[33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
+[33mbackend1232 |[0m         '4': [Function: bound onParserExecute],
+[33mbackend1232 |[0m         _headers: [],
+[33mbackend1232 |[0m         _url: '',
+[33mbackend1232 |[0m         _consumed: true,
+[33mbackend1232 |[0m         socket: [Circular],
+[33mbackend1232 |[0m         incoming: [Circular],
+[33mbackend1232 |[0m         outgoing: null,
+[33mbackend1232 |[0m         maxHeaderPairs: 2000,
+[33mbackend1232 |[0m         onIncoming: [Function: bound parserOnIncoming] },
+[33mbackend1232 |[0m      on: [Function: socketOnWrap],
+[33mbackend1232 |[0m      _paused: false,
+[33mbackend1232 |[0m      _httpMessage: 
+[33mbackend1232 |[0m       ServerResponse {
+[33mbackend1232 |[0m         domain: null,
+[33mbackend1232 |[0m         _events: [Object],
+[33mbackend1232 |[0m         _eventsCount: 1,
+[33mbackend1232 |[0m         _maxListeners: undefined,
+[33mbackend1232 |[0m         output: [],
+[33mbackend1232 |[0m         outputEncodings: [],
 [33mbackend1232 |[0m         outputCallbacks: [],
 [33mbackend1232 |[0m         outputSize: 0,
 [33mbackend1232 |[0m         writable: true,
@@ -872,9 +872,9 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      [Symbol(asyncId)]: 42,
 [33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 41 },
 [33mbackend1232 |[0m   _consuming: false,
-[33mbackend1232 |[0m   _dumped: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   _dumped: false,
 [33mbackend1232 |[0m   next: [Function: next],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m   baseUrl: '',
+[33mbackend1232 |[0m   baseUrl: '',
 [33mbackend1232 |[0m   originalUrl: '/auth/gitlab?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
 [33mbackend1232 |[0m   _parsedUrl: 
 [33mbackend1232 |[0m    Url {
@@ -900,7 +900,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _events: { finish: [Function: bound resOnFinish] },
 [33mbackend1232 |[0m      _eventsCount: 1,
 [33mbackend1232 |[0m      _maxListeners: undefined,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      output: [],
+[33mbackend1232 |[0m      output: [],
 [33mbackend1232 |[0m      outputEncodings: [],
 [33mbackend1232 |[0m      outputCallbacks: [],
 [33mbackend1232 |[0m      outputSize: 0,
@@ -919,42 +919,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _trailer: '',
 [33mbackend1232 |[0m      finished: false,
 [33mbackend1232 |[0m      _headerSent: false,
-[33mbackend1232 |[0m      socket: 
-[33mbackend1232 |[0m       Socket {
-[33mbackend1232 |[0m         connecting: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _hadError: false,
-[33mbackend1232 |[0m         _handle: [Object],
-[33mbackend1232 |[0m         _parent: null,
-[33mbackend1232 |[0m         _host: null,
-[33mbackend1232 |[0m         _readableState: [Object],
-[33mbackend1232 |[0m         readable: true,
-[33mbackend1232 |[0m         domain: null,
-[33mbackend1232 |[0m         _events: [Object],
-[33mbackend1232 |[0m         _eventsCount: 9,
-[33mbackend1232 |[0m         _maxListeners: undefined,
-[33mbackend1232 |[0m         _writableState: [Object],
-[33mbackend1232 |[0m         writable: true,
-[33mbackend1232 |[0m         allowHalfOpen: true,
-[33mbackend1232 |[0m         _bytesDispatched: 40414,
-[33mbackend1232 |[0m         _sockname: null,
-[33mbackend1232 |[0m         _pendingData: null,
-[33mbackend1232 |[0m         _pendingEncoding: '',
-[33mbackend1232 |[0m         server: [Object],
-[33mbackend1232 |[0m         _server: [Object],
-[33mbackend1232 |[0m         _idleTimeout: 120000,
-[33mbackend1232 |[0m         _idleNext: [Object],
-[33mbackend1232 |[0m         _idlePrev: [Object],
-[33mbackend1232 |[0m         _idleStart: 1533575,
-[33mbackend1232 |[0m         _destroyed: false,
-[33mbackend1232 |[0m         parser: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         on: [Function: socketOnWrap],
-[33mbackend1232 |[0m         _paused: false,
-[33mbackend1232 |[0m         _httpMessage: [Circular],
-[33mbackend1232 |[0m         [Symbol(asyncId)]: 41,
-[33mbackend1232 |[0m         [Symbol(bytesRead)]: 0,
-[33mbackend1232 |[0m         [Symbol(asyncId)]: 42,
-[33mbackend1232 |[0m         [Symbol(triggerAsyncId)]: 41 },
-[33mbackend1232 |[0m      connection: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      socket: 
 [33mbackend1232 |[0m       Socket {
 [33mbackend1232 |[0m         connecting: false,
 [33mbackend1232 |[0m         _hadError: false,
@@ -966,7 +931,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         domain: null,
 [33mbackend1232 |[0m         _events: [Object],
 [33mbackend1232 |[0m         _eventsCount: 9,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
+[33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         _writableState: [Object],
 [33mbackend1232 |[0m         writable: true,
 [33mbackend1232 |[0m         allowHalfOpen: true,
@@ -989,7 +954,42 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         [Symbol(bytesRead)]: 0,
 [33mbackend1232 |[0m         [Symbol(asyncId)]: 42,
 [33mbackend1232 |[0m         [Symbol(triggerAsyncId)]: 41 },
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _header: null,
+[33mbackend1232 |[0m      connection: 
+[33mbackend1232 |[0m       Socket {
+[33mbackend1232 |[0m         connecting: false,
+[33mbackend1232 |[0m         _hadError: false,
+[33mbackend1232 |[0m         _handle: [Object],
+[33mbackend1232 |[0m         _parent: null,
+[33mbackend1232 |[0m         _host: null,
+[33mbackend1232 |[0m         _readableState: [Object],
+[33mbackend1232 |[0m         readable: true,
+[33mbackend1232 |[0m         domain: null,
+[33mbackend1232 |[0m         _events: [Object],
+[33mbackend1232 |[0m         _eventsCount: 9,
+[33mbackend1232 |[0m         _maxListeners: undefined,
+[33mbackend1232 |[0m         _writableState: [Object],
+[33mbackend1232 |[0m         writable: true,
+[33mbackend1232 |[0m         allowHalfOpen: true,
+[33mbackend1232 |[0m         _bytesDispatched: 40414,
+[33mbackend1232 |[0m         _sockname: null,
+[33mbackend1232 |[0m         _pendingData: null,
+[33mbackend1232 |[0m         _pendingEncoding: '',
+[33mbackend1232 |[0m         server: [Object],
+[33mbackend1232 |[0m         _server: [Object],
+[33mbackend1232 |[0m         _idleTimeout: 120000,
+[33mbackend1232 |[0m         _idleNext: [Object],
+[33mbackend1232 |[0m         _idlePrev: [Object],
+[33mbackend1232 |[0m         _idleStart: 1533575,
+[33mbackend1232 |[0m         _destroyed: false,
+[33mbackend1232 |[0m         parser: [Object],
+[33mbackend1232 |[0m         on: [Function: socketOnWrap],
+[33mbackend1232 |[0m         _paused: false,
+[33mbackend1232 |[0m         _httpMessage: [Circular],
+[33mbackend1232 |[0m         [Symbol(asyncId)]: 41,
+[33mbackend1232 |[0m         [Symbol(bytesRead)]: 0,
+[33mbackend1232 |[0m         [Symbol(asyncId)]: 42,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(triggerAsyncId)]: 41 },
+[33mbackend1232 |[0m      _header: null,
 [33mbackend1232 |[0m      _onPendingData: [Function: bound updateOutgoingData],
 [33mbackend1232 |[0m      _sent100: false,
 [33mbackend1232 |[0m      _expect_continue: false,
@@ -1007,7 +1007,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _infoTransformers: [],
 [33mbackend1232 |[0m         _framework: [Object],
 [33mbackend1232 |[0m         _userProperty: 'user',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _sm: [Object],
+[33mbackend1232 |[0m         _sm: [Object],
 [33mbackend1232 |[0m         Authenticator: [Function: Authenticator],
 [33mbackend1232 |[0m         Passport: [Function: Authenticator],
 [33mbackend1232 |[0m         Strategy: [Object],
@@ -1022,7 +1022,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      port: null,
 [33mbackend1232 |[0m      hostname: null,
 [33mbackend1232 |[0m      hash: null,
-[33mbackend1232 |[0m      search: '?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      search: '?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
 [33mbackend1232 |[0m      query: 'code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
 [33mbackend1232 |[0m      pathname: '/auth/gitlab',
 [33mbackend1232 |[0m      path: '/auth/gitlab?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332',
@@ -1030,7 +1030,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _raw: '/auth/gitlab?code=0566c72392221d893c505e0d85236c20ae030c51f8fcaf9a4063381713186332' },
 [33mbackend1232 |[0m   route: 
 [33mbackend1232 |[0m    Route {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      path: '/auth/gitlab',
+[33mbackend1232 |[0m      path: '/auth/gitlab',
 [33mbackend1232 |[0m      stack: [ [Object], [Object] ],
 [33mbackend1232 |[0m      methods: { get: true } },
 [33mbackend1232 |[0m   user: 
@@ -1046,7 +1046,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m       { id: 3056177,
 [33mbackend1232 |[0m         name: 'Ravinder Kumar',
 [33mbackend1232 |[0m         username: 'yravinderkumar33',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         state: 'active',
+[33mbackend1232 |[0m         state: 'active',
 [33mbackend1232 |[0m         avatar_url: 'https://secure.gravatar.com/avatar/44cb5df891f69af3d0ebc32edf394a33?s=80&d=identicon',
 [33mbackend1232 |[0m         web_url: 'https://gitlab.com/yravinderkumar33',
 [33mbackend1232 |[0m         created_at: '2018-10-29T10:20:36.671Z',
@@ -1064,13 +1064,13 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         email: 'yravinderkumar33@gmail.com',
 [33mbackend1232 |[0m         theme_id: 1,
 [33mbackend1232 |[0m         color_scheme_id: 1,
-[33mbackend1232 |[0m         projects_limit: 100000,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         projects_limit: 100000,
 [33mbackend1232 |[0m         current_sign_in_at: '2018-11-14T10:15:43.202Z',
 [33mbackend1232 |[0m         identities: [Array],
 [33mbackend1232 |[0m         can_create_group: true,
 [33mbackend1232 |[0m         can_create_project: true,
 [33mbackend1232 |[0m         two_factor_enabled: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         external: false,
+[33mbackend1232 |[0m         external: false,
 [33mbackend1232 |[0m         private_profile: null,
 [33mbackend1232 |[0m         shared_runners_minutes_limit: null } },
 [33mbackend1232 |[0m   session: { passport: { user: [Object] } },
@@ -1087,10 +1087,10 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      buffer: BufferList { head: null, tail: null, length: 0 },
 [33mbackend1232 |[0m      length: 0,
 [33mbackend1232 |[0m      pipes: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      pipesCount: 0,
+[33mbackend1232 |[0m      pipesCount: 0,
 [33mbackend1232 |[0m      flowing: null,
 [33mbackend1232 |[0m      ended: true,
-[33mbackend1232 |[0m      endEmitted: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      endEmitted: false,
 [33mbackend1232 |[0m      reading: false,
 [33mbackend1232 |[0m      sync: true,
 [33mbackend1232 |[0m      needReadable: false,
@@ -1110,7 +1110,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m   _maxListeners: undefined,
 [33mbackend1232 |[0m   socket: 
 [33mbackend1232 |[0m    Socket {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
+[33mbackend1232 |[0m      connecting: false,
 [33mbackend1232 |[0m      _hadError: false,
 [33mbackend1232 |[0m      _handle: 
 [33mbackend1232 |[0m       TCP {
@@ -1123,10 +1123,10 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _parent: null,
 [33mbackend1232 |[0m      _host: null,
 [33mbackend1232 |[0m      _readableState: 
-[33mbackend1232 |[0m       ReadableState {
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       ReadableState {
 [33mbackend1232 |[0m         objectMode: false,
 [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         buffer: [Object],
+[33mbackend1232 |[0m         buffer: [Object],
 [33mbackend1232 |[0m         length: 0,
 [33mbackend1232 |[0m         pipes: null,
 [33mbackend1232 |[0m         pipesCount: 0,
@@ -1146,10 +1146,10 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         decoder: null,
 [33mbackend1232 |[0m         encoding: null },
 [33mbackend1232 |[0m      readable: true,
-[33mbackend1232 |[0m      domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      domain: null,
 [33mbackend1232 |[0m      _events: 
 [33mbackend1232 |[0m       { end: [Array],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
+[33mbackend1232 |[0m         _socketEnd: [Function: onSocketEnd],
 [33mbackend1232 |[0m         drain: [Array],
 [33mbackend1232 |[0m         timeout: [Function: socketOnTimeout],
 [33mbackend1232 |[0m         data: [Function: bound socketOnData],
@@ -1163,7 +1163,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m       WritableState {
 [33mbackend1232 |[0m         objectMode: false,
 [33mbackend1232 |[0m         highWaterMark: 16384,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         finalCalled: false,
+[33mbackend1232 |[0m         finalCalled: false,
 [33mbackend1232 |[0m         needDrain: false,
 [33mbackend1232 |[0m         ending: false,
 [33mbackend1232 |[0m         ended: false,
@@ -1173,7 +1173,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         defaultEncoding: 'utf8',
 [33mbackend1232 |[0m         length: 0,
 [33mbackend1232 |[0m         writing: false,
-[33mbackend1232 |[0m         corked: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corked: 0,
 [33mbackend1232 |[0m         sync: false,
 [33mbackend1232 |[0m         bufferProcessing: false,
 [33mbackend1232 |[0m         onwrite: [Function: bound onwrite],
@@ -1185,7 +1185,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         prefinished: false,
 [33mbackend1232 |[0m         errorEmitted: false,
 [33mbackend1232 |[0m         bufferedRequestCount: 0,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         corkedRequestsFree: [Object] },
+[33mbackend1232 |[0m         corkedRequestsFree: [Object] },
 [33mbackend1232 |[0m      writable: true,
 [33mbackend1232 |[0m      allowHalfOpen: true,
 [33mbackend1232 |[0m      _bytesDispatched: 826,
@@ -1201,7 +1201,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _connections: 1,
 [33mbackend1232 |[0m         _handle: [Object],
 [33mbackend1232 |[0m         _usingSlaves: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _slaves: [],
+[33mbackend1232 |[0m         _slaves: [],
 [33mbackend1232 |[0m         _unref: false,
 [33mbackend1232 |[0m         allowHalfOpen: true,
 [33mbackend1232 |[0m         pauseOnConnect: false,
@@ -1213,7 +1213,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _connectionKey: '6::::5000',
 [33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
 [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
-[33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
 [33mbackend1232 |[0m      _server: 
 [33mbackend1232 |[0m       Server {
 [33mbackend1232 |[0m         domain: null,
@@ -1224,7 +1224,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _handle: [Object],
 [33mbackend1232 |[0m         _usingSlaves: false,
 [33mbackend1232 |[0m         _slaves: [],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unref: false,
+[33mbackend1232 |[0m         _unref: false,
 [33mbackend1232 |[0m         allowHalfOpen: true,
 [33mbackend1232 |[0m         pauseOnConnect: false,
 [33mbackend1232 |[0m         httpAllowHalfOpen: false,
@@ -1241,7 +1241,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m       TimersList {
 [33mbackend1232 |[0m         _idleNext: [Circular],
 [33mbackend1232 |[0m         _idlePrev: [Circular],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _timer: [Object],
+[33mbackend1232 |[0m         _timer: [Object],
 [33mbackend1232 |[0m         _unrefed: true,
 [33mbackend1232 |[0m         msecs: 120000,
 [33mbackend1232 |[0m         nextTick: false },
@@ -1250,7 +1250,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _idleNext: [Circular],
 [33mbackend1232 |[0m         _idlePrev: [Circular],
 [33mbackend1232 |[0m         _timer: [Object],
-[33mbackend1232 |[0m         _unrefed: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _unrefed: true,
 [33mbackend1232 |[0m         msecs: 120000,
 [33mbackend1232 |[0m         nextTick: false },
 [33mbackend1232 |[0m      _idleStart: 2302294,
@@ -1274,9 +1274,9 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _paused: false,
 [33mbackend1232 |[0m      _httpMessage: 
 [33mbackend1232 |[0m       ServerResponse {
-[33mbackend1232 |[0m         domain: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         domain: null,
 [33mbackend1232 |[0m         _events: [Object],
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _eventsCount: 1,
+[33mbackend1232 |[0m         _eventsCount: 1,
 [33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         output: [],
 [33mbackend1232 |[0m         outputEncodings: [],
@@ -1305,14 +1305,14 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _expect_continue: false,
 [33mbackend1232 |[0m         req: [Circular],
 [33mbackend1232 |[0m         locals: {},
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
+[33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
 [33mbackend1232 |[0m      [Symbol(asyncId)]: 299,
 [33mbackend1232 |[0m      [Symbol(bytesRead)]: 0,
 [33mbackend1232 |[0m      [Symbol(asyncId)]: 300,
 [33mbackend1232 |[0m      [Symbol(triggerAsyncId)]: 299 },
 [33mbackend1232 |[0m   connection: 
 [33mbackend1232 |[0m    Socket {
-[33mbackend1232 |[0m      connecting: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
 [33mbackend1232 |[0m      _hadError: false,
 [33mbackend1232 |[0m      _handle: 
 [33mbackend1232 |[0m       TCP {
@@ -1340,7 +1340,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         needReadable: true,
 [33mbackend1232 |[0m         emittedReadable: false,
 [33mbackend1232 |[0m         readableListening: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         resumeScheduled: false,
 [33mbackend1232 |[0m         destroyed: false,
 [33mbackend1232 |[0m         defaultEncoding: 'utf8',
 [33mbackend1232 |[0m         awaitDrain: 0,
@@ -1385,8 +1385,8 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         lastBufferedRequest: null,
 [33mbackend1232 |[0m         pendingcb: 0,
 [33mbackend1232 |[0m         prefinished: false,
-[33mbackend1232 |[0m         errorEmitted: false,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         bufferedRequestCount: 0,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         errorEmitted: false,
+[33mbackend1232 |[0m         bufferedRequestCount: 0,
 [33mbackend1232 |[0m         corkedRequestsFree: [Object] },
 [33mbackend1232 |[0m      writable: true,
 [33mbackend1232 |[0m      allowHalfOpen: true,
@@ -1411,7 +1411,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         timeout: 120000,
 [33mbackend1232 |[0m         keepAliveTimeout: 5000,
 [33mbackend1232 |[0m         _pendingResponseData: 0,
-[33mbackend1232 |[0m         maxHeadersCount: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         maxHeadersCount: null,
 [33mbackend1232 |[0m         _connectionKey: '6::::5000',
 [33mbackend1232 |[0m         [Symbol(IncomingMessage)]: [Object],
 [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
@@ -1439,7 +1439,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         [Symbol(ServerResponse)]: [Object],
 [33mbackend1232 |[0m         [Symbol(asyncId)]: 5 },
 [33mbackend1232 |[0m      _idleTimeout: 120000,
-[33mbackend1232 |[0m      _idleNext: 
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _idleNext: 
 [33mbackend1232 |[0m       TimersList {
 [33mbackend1232 |[0m         _idleNext: [Circular],
 [33mbackend1232 |[0m         _idlePrev: [Circular],
@@ -1462,7 +1462,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         '0': [Function: parserOnHeaders],
 [33mbackend1232 |[0m         '1': [Function: parserOnHeadersComplete],
 [33mbackend1232 |[0m         '2': [Function: parserOnBody],
-[33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         '3': [Function: parserOnMessageComplete],
 [33mbackend1232 |[0m         '4': [Function: bound onParserExecute],
 [33mbackend1232 |[0m         _headers: [],
 [33mbackend1232 |[0m         _url: '',
@@ -1495,8 +1495,8 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _removedContLen: false,
 [33mbackend1232 |[0m         _removedTE: false,
 [33mbackend1232 |[0m         _contentLength: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _hasBody: true,
-[33mbackend1232 |[0m         _trailer: '',
+[33mbackend1232 |[0m         _hasBody: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _trailer: '',
 [33mbackend1232 |[0m         finished: false,
 [33mbackend1232 |[0m         _headerSent: false,
 [33mbackend1232 |[0m         socket: [Circular],
@@ -1519,7 +1519,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m   headers: 
 [33mbackend1232 |[0m    { host: 'localhost:5002',
 [33mbackend1232 |[0m      connection: 'keep-alive',
-[33mbackend1232 |[0m      'upgrade-insecure-requests': '1',
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      'upgrade-insecure-requests': '1',
 [33mbackend1232 |[0m      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
 [33mbackend1232 |[0m      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
 [33mbackend1232 |[0m      referer: 'http://localhost:5002/',
@@ -1554,11 +1554,11 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m   statusMessage: null,
 [33mbackend1232 |[0m   client: 
 [33mbackend1232 |[0m    Socket {
-[33mbackend1232 |[0m      connecting: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      connecting: false,
 [33mbackend1232 |[0m      _hadError: false,
 [33mbackend1232 |[0m      _handle: 
 [33mbackend1232 |[0m       TCP {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         reading: true,
+[33mbackend1232 |[0m         reading: true,
 [33mbackend1232 |[0m         owner: [Circular],
 [33mbackend1232 |[0m         onread: [Function: onread],
 [33mbackend1232 |[0m         onconnection: null,
@@ -1606,7 +1606,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _writableState: 
 [33mbackend1232 |[0m       WritableState {
 [33mbackend1232 |[0m         objectMode: false,
-[33mbackend1232 |[0m         highWaterMark: 16384,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         highWaterMark: 16384,
 [33mbackend1232 |[0m         finalCalled: false,
 [33mbackend1232 |[0m         needDrain: false,
 [33mbackend1232 |[0m         ending: false,
@@ -1636,13 +1636,13 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      _sockname: null,
 [33mbackend1232 |[0m      _pendingData: null,
 [33mbackend1232 |[0m      _pendingEncoding: '',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      server: 
+[33mbackend1232 |[0m      server: 
 [33mbackend1232 |[0m       Server {
 [33mbackend1232 |[0m         domain: null,
 [33mbackend1232 |[0m         _events: [Object],
 [33mbackend1232 |[0m         _eventsCount: 2,
 [33mbackend1232 |[0m         _maxListeners: undefined,
-[33mbackend1232 |[0m         _connections: 1,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _connections: 1,
 [33mbackend1232 |[0m         _handle: [Object],
 [33mbackend1232 |[0m         _usingSlaves: false,
 [33mbackend1232 |[0m         _slaves: [],
@@ -1665,7 +1665,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _eventsCount: 2,
 [33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         _connections: 1,
-[33mbackend1232 |[0m         _handle: [Object],
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _handle: [Object],
 [33mbackend1232 |[0m         _usingSlaves: false,
 [33mbackend1232 |[0m         _slaves: [],
 [33mbackend1232 |[0m         _unref: false,
@@ -1691,7 +1691,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         nextTick: false },
 [33mbackend1232 |[0m      _idlePrev: 
 [33mbackend1232 |[0m       TimersList {
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Circular],
+[33mbackend1232 |[0m         _idleNext: [Circular],
 [33mbackend1232 |[0m         _idlePrev: [Circular],
 [33mbackend1232 |[0m         _timer: [Object],
 [33mbackend1232 |[0m         _unrefed: true,
@@ -1721,7 +1721,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         domain: null,
 [33mbackend1232 |[0m         _events: [Object],
 [33mbackend1232 |[0m         _eventsCount: 1,
-[33mbackend1232 |[0m         _maxListeners: undefined,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _maxListeners: undefined,
 [33mbackend1232 |[0m         output: [],
 [33mbackend1232 |[0m         outputEncodings: [],
 [33mbackend1232 |[0m         outputCallbacks: [],
@@ -1746,7 +1746,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _header: null,
 [33mbackend1232 |[0m         _onPendingData: [Function: bound updateOutgoingData],
 [33mbackend1232 |[0m         _sent100: false,
-[33mbackend1232 |[0m         _expect_continue: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _expect_continue: false,
 [33mbackend1232 |[0m         req: [Circular],
 [33mbackend1232 |[0m         locals: {},
 [33mbackend1232 |[0m         [Symbol(outHeadersKey)]: [Object] },
@@ -1766,7 +1766,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      auth: null,
 [33mbackend1232 |[0m      host: null,
 [33mbackend1232 |[0m      port: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      hostname: null,
+[33mbackend1232 |[0m      hostname: null,
 [33mbackend1232 |[0m      hash: null,
 [33mbackend1232 |[0m      search: '?code=f5cead9b03f9668d244271b3fce0446e6edad89f503d78bc6f2bf456bd3887fc',
 [33mbackend1232 |[0m      query: 'code=f5cead9b03f9668d244271b3fce0446e6edad89f503d78bc6f2bf456bd3887fc',
@@ -1810,7 +1810,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         _parent: null,
 [33mbackend1232 |[0m         _host: null,
 [33mbackend1232 |[0m         _readableState: [Object],
-[33mbackend1232 |[0m         readable: true,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         readable: true,
 [33mbackend1232 |[0m         domain: null,
 [33mbackend1232 |[0m         _events: [Object],
 [33mbackend1232 |[0m         _eventsCount: 9,
@@ -1825,7 +1825,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         server: [Object],
 [33mbackend1232 |[0m         _server: [Object],
 [33mbackend1232 |[0m         _idleTimeout: 120000,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _idleNext: [Object],
+[33mbackend1232 |[0m         _idleNext: [Object],
 [33mbackend1232 |[0m         _idlePrev: [Object],
 [33mbackend1232 |[0m         _idleStart: 2302294,
 [33mbackend1232 |[0m         _destroyed: false,
@@ -1842,7 +1842,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         connecting: false,
 [33mbackend1232 |[0m         _hadError: false,
 [33mbackend1232 |[0m         _handle: [Object],
-[33mbackend1232 |[0m         _parent: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         _parent: null,
 [33mbackend1232 |[0m         _host: null,
 [33mbackend1232 |[0m         _readableState: [Object],
 [33mbackend1232 |[0m         readable: true,
@@ -1873,12 +1873,12 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         [Symbol(asyncId)]: 300,
 [33mbackend1232 |[0m         [Symbol(triggerAsyncId)]: 299 },
 [33mbackend1232 |[0m      _header: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      _onPendingData: [Function: bound updateOutgoingData],
+[33mbackend1232 |[0m      _onPendingData: [Function: bound updateOutgoingData],
 [33mbackend1232 |[0m      _sent100: false,
 [33mbackend1232 |[0m      _expect_continue: false,
 [33mbackend1232 |[0m      req: [Circular],
 [33mbackend1232 |[0m      locals: {},
-[33mbackend1232 |[0m      [Symbol(outHeadersKey)]: { 'x-powered-by': [Array] } },
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      [Symbol(outHeadersKey)]: { 'x-powered-by': [Array] } },
 [33mbackend1232 |[0m   body: {},
 [33mbackend1232 |[0m   _passport: 
 [33mbackend1232 |[0m    { instance: 
@@ -1900,8 +1900,8 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m    Url {
 [33mbackend1232 |[0m      protocol: null,
 [33mbackend1232 |[0m      slashes: null,
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      auth: null,
-[33mbackend1232 |[0m      host: null,
+[33mbackend1232 |[0m      auth: null,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m      host: null,
 [33mbackend1232 |[0m      port: null,
 [33mbackend1232 |[0m      hostname: null,
 [33mbackend1232 |[0m      hash: null,
@@ -1926,7 +1926,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m      provider: 'gitlab',
 [33mbackend1232 |[0m      _raw: '{"id":3056177,"name":"Ravinder Kumar","username":"yravinderkumar33","state":"active","avatar_url":"https://secure.gravatar.com/avatar/44cb5df891f69af3d0ebc32edf394a33?s=80\\u0026d=identicon","web_url":"https://gitlab.com/yravinderkumar33","created_at":"2018-10-29T10:20:36.671Z","bio":null,"location":null,"public_email":"","skype":"","linkedin":"","twitter":"","website_url":"","organization":null,"last_sign_in_at":"2018-11-14T10:15:43.202Z","confirmed_at":"2018-10-29T10:20:36.344Z","last_activity_on":"2018-11-14","email":"yravinderkumar33@gmail.com","theme_id":1,"color_scheme_id":1,"projects_limit":100000,"current_sign_in_at":"2018-11-14T10:44:56.580Z","identities":[{"provider":"github","extern_uid":"12777499"}],"can_create_group":true,"can_create_project":true,"two_factor_enabled":false,"external":false,"private_profile":null,"shared_runners_minutes_limit":null}',
 [33mbackend1232 |[0m      _json: 
-[33mbackend1232 |[0m       { id: 3056177,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m       { id: 3056177,
 [33mbackend1232 |[0m         name: 'Ravinder Kumar',
 [33mbackend1232 |[0m         username: 'yravinderkumar33',
 [33mbackend1232 |[0m         state: 'active',
@@ -1943,7 +1943,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         organization: null,
 [33mbackend1232 |[0m         last_sign_in_at: '2018-11-14T10:15:43.202Z',
 [33mbackend1232 |[0m         confirmed_at: '2018-10-29T10:20:36.344Z',
-[  Wed Nov 14 2018 17:17:51 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         last_activity_on: '2018-11-14',
+[33mbackend1232 |[0m         last_activity_on: '2018-11-14',
 [33mbackend1232 |[0m         email: 'yravinderkumar33@gmail.com',
 [33mbackend1232 |[0m         theme_id: 1,
 [33mbackend1232 |[0m         color_scheme_id: 1,
@@ -1952,7 +1952,7 @@ Step 7/7 : CMD ["npm" , "start"]
 [33mbackend1232 |[0m         identities: [Array],
 [33mbackend1232 |[0m         can_create_group: true,
 [33mbackend1232 |[0m         can_create_project: true,
-[33mbackend1232 |[0m         two_factor_enabled: false,
+[  Wed Nov 14 2018 17:58:13 GMT+0530 (IST) ]:- [33mbackend1232 |[0m         two_factor_enabled: false,
 [33mbackend1232 |[0m         external: false,
 [33mbackend1232 |[0m         private_profile: null,
 [33mbackend1232 |[0m         shared_runners_minutes_limit: null } },

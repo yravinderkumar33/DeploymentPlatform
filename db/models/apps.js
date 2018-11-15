@@ -7,7 +7,7 @@ const appSchema = new mongoose.Schema({
     app_name:{ type: String, required: true },
     timestamp:{ type: Date, default: Date.now },
     status: { type: String, required: true },
-    app_URL:{ type: String, required: true, unique: true }
+    app_URL:{ type: String, required: true, unique: true}
 })
 
 const appsModel = mongoose.model('user_apps', appSchema);

@@ -17,19 +17,19 @@ var winston = require('winston');
 var fs = require('fs');
 
 app.use(express.static(path.join(__dirname, './client/build')));
-
-app.use(expressWinston.logger({
-    transports: [
-        new winston.transports.Console({
-            json: true,
-            colorize: true
-        }),
-        new winston.transports.File({
-            filename: 'access.log',
-            level: 'info'
-        })
-    ]
-}));
+app.use(express.static(path.join(__dirname, './logs')));
+// app.use(expressWinston.logger({
+//     transports: [
+//         new winston.transports.Console({
+//             json: true,
+//             colorize: true
+//         }),
+//         new winston.transports.File({
+//             filename: 'access.log',
+//             level: 'info'
+//         })
+//     ]
+// }));
 
 app.use(bodyParser.json());
 app.use(passport.initialize());
@@ -85,7 +85,6 @@ app.post("/deploy", (req, res) => {
                 appID = x.split(" ")[x.split(" ").length - 1]
                 storeData(repoUrl, repo, appID, "true");
             }
-
             io.emit('chat', x);
         },
         e => {
@@ -105,6 +104,15 @@ app.get("/apps", (req, res) => {
     ;
 })
 
+
+app.get("/downloadLog/:name", (req, res) => {
+    const fileName = req.params.name + ".log";
+    console.log(fileName);
+    res.download(`${__dirname}/logs/${fileName}`, fileName, (err) => {
+        console.log(err)
+    });
+
+})
 
 app.use(expressWinston.errorLogger({
     transports: [
@@ -130,3 +138,6 @@ function storeData(url, appName, appId, status) {
         app_URL: url
     });
 }
+
+
+
